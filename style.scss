@@ -5,6 +5,12 @@
   font-size: 18px;
 }
 
---container {
+.container {
+  display: flex;
 
+}
+
+.header {
+  max-width: 1em;
+  max-height: 1em;
 }
