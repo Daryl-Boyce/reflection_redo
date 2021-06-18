@@ -1,15 +1,20 @@
 :root{
   max-resolution: 100%;
-
   font-family: Poppins, sans-serif;
   font-size: 18px;
+  text-decoration: none;
 }
 .container {
   display: inline-flex;
   background-color: blue;
-
   height: 100%;
+  width: 100%;
+  text-decoration: none;
 
+}
+
+a.netmatters__logo {
+    text-decoration: none;
 }
 
 .header {
@@ -17,6 +22,7 @@
   flex: wrap;
   background-color: green;
   height: 10em;
+  width: 50%;
 
 }
 .header__innner{
