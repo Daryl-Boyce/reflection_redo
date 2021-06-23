@@ -38,19 +38,22 @@ flex: inherit;
 flex-direction: row;
 background-color: #fff;
 width: 100%;
-height: 100%;
+height: 10em;
+
 justify-content: space-around;
 align-items: center;
 }
 //
 .netmatters__logo {
-  font-style: none;
+
+
 }
 //
 .netmatters__logo__img {
   width: 100%;
-  height: 40%;
+  height: 100%;
 }
+//
 .header__buttons {
   display: inline-flex;
   align-items: center;
@@ -59,12 +62,23 @@ align-items: center;
   height: 20%;
 
 }
+//
 .header__search {
   display: inline-flex;
-  width: 136px;
-  height: 56px;
+  width: 100%;
+  height: 70%;
 }
 //
+.header__search__box {
+  font-size: 20px;
+  align-self: flex-start;
+}
+//
+.header__phone {
+  display: inline-flex;
+  height: 100%;
+  color: black;
+}
 //
 .header__button__support {
   background-color: #4183d7;

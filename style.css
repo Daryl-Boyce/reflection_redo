@@ -52,7 +52,7 @@ body {
           flex-direction: row;
   background-color: #fff;
   width: 100%;
-  height: 100%;
+  height: 10em;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -60,13 +60,9 @@ body {
           align-items: center;
 }
 
-.netmatters__logo {
-  font-style: none;
-}
-
 .netmatters__logo__img {
   width: 100%;
-  height: 40%;
+  height: 100%;
 }
 
 .header__buttons {
@@ -86,8 +82,22 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: 136px;
-  height: 56px;
+  width: 100%;
+  height: 70%;
+}
+
+.header__search__box {
+  font-size: 20px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.header__phone {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  color: black;
 }
 
 .header__button__support {
