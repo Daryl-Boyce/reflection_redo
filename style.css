@@ -236,12 +236,20 @@ body {
           align-items: center;
   width: 100%;
   height: 100%;
+  background: url("Slider__background.jpg");
 }
 
-.slider__button {
-  background-color: yellow;
+.slider__dots {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
   border: none;
-  color: red;
+}
+
+.slider__dots__inner {
+  background-color: #666;
+  border: none;
   padding: 20px;
   text-align: center;
   text-decoration: none;
