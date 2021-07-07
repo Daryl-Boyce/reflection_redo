@@ -18,31 +18,33 @@
 			<div class="container">
 		 		<header class="header">
 		   		<div class="header__inner">
-						<section class=""
-				    <a class="netmatters__logo" href="#" >
-					    <img class="netmatters__logo__img" src="f-logo.png" alt="Netmatters logo">
-				   	</a>
-						<section class="header__phone">
-						<img src="" class="fas fa-phone-volume"></img>
-					</section>
+						<section class="header_inner_top">
+				    	<a class="netmatters__logo" href="#" >
+					   	 <img class="netmatters__logo__img" src="f-logo.png" alt="Netmatters logo">
+				   		</a>
+							<section class="header__phone">
+							<img src="" class="fas fa-2x fa-phone-volume"></img>
+							</section>
 						<!-- <div class=" header__buttons">
 					    <section class=" header__button__support header__button__large ">
 					    	Support
 					    </section>
 					    <section class=" header__button__contact header__button__large ">
 					    	Contact
-					    </section> -->
-						</section>
+					    </section>  -->
 							<section class="header__button__menu">
-								<img src="" alt="" class="fas fa-lg fa-bars">
+								<img src="" alt="" class="fas fa-2x fa-bars">
 								Menu
+							</section>
 						</section>
-
-								<form class="header__search__box" action="#">
-									<input type="text" placeholder="Search.." name="search">
-								</form>
-						</div>
-		   		</div>
+						<!--  -->
+						<section class="header__inner_bottom">
+							<form class="header__search__box" action="#">
+								<input type="text" placeholder="Search.." name="search"
+								id="header__inner__search__input">
+							</form>
+						</section>
+					</div>
 				</header>
 			</div>
 			<!--  -->
@@ -87,31 +89,36 @@
 			<!-- Slider -->
 			<div class="container">
 		  	<section class="slider">
-		      <img src="" alt="">
+					<div class="slider__img">
+		      <img src="https://picsum.photos/1000/500" alt="">
 		      <!-- This will change on each slide when implemented. -->
-		      <h1>Web Design
+					</div>
+		      <h1 class="slider__header">Web Design
 		      </h1>
 		      <aside>
 		        <a href="">Find out more
 		        </a>
 		      </aside>
-		      <button class="slider_button">
-		      </button>
-		      <button class="slider_button">
-		      </button>
-		      <button class="slider_button">
-		      </button>
-		      <button class="slider_button">
-		      </button>
-		      <button class="slider_button">
-		      </button>
-		      <button class="slider_button">
-		      </button>
+
+
+			      <button class="slider__button">
+			      </button>
+			      <button class="slider__button">
+			      </button>
+			      <button class="slider__button">
+			      </button>
+			      <button class="slider__button">
+			      </button>
+			      <button class="slider__button">
+			      </button>
+			      <button class="slider__button">
+			      </button>
+
 		    </section>
 			</div>
 			<!--  -->
 			<!-- Middle Nav -->
-			 <div class="container">
+			<div class="container">
 				<aside class="middle__nav">
 					<section class:"middle__nav__large">
 						<img src="#" alt="">
@@ -202,7 +209,7 @@
 							Read More
 						</section>
 					</section>
-						<section class:"middle__nav__small">
+					<section class:"middle__nav__small">
 							<img src="#" alt="">
 							<h2>Developer Training
 							</h2>
@@ -217,66 +224,30 @@
 								Read More
 							</section>
 						</section>
-					</aside>
-				</div>
-			<!--  -->
-			<!-- Brand Banner -->
-			 <div class="container">
-				<aside class="brand_banner">
-					<h1>
-						Netmatters
-					</h1>
-					<section class="brand__banner__paragraph">
-					</section>
-					<section class="brand__banner__paragraph">
-					</section>
-					<section class="brand__banner__paragraph">
-					</section>
-					<section>
-					</section>
 				</aside>
 			</div>
 			<!--  -->
-			<!-- Latest -->
+			<!-- Brand Banner -->
 			<div class="container">
-
-				<aside class="latest__news">
-					<!--  -->
-					<section class="latest__news__card">
-
+				<aside class="brand_banner">
+						<h1>
+							Netmatters
+						</h1>
+						<section class="brand__banner__paragraph">
+						</section>
+						<section class="brand__banner__paragraph">
+						</section>
+						<section class="brand__banner__paragraph">
+						</section>
 						<section>
-							<img src="#" alt="">
-							<aside>
-								<a href="">Insites
-								</a>
-							</aside>
 						</section>
+					</aside>
+				</div>
+				<!--  -->
+				<!-- Latest -->
+				<div class="container">
 
-						<section>
-						<a href="#">Happy 25th Birthday Gabriel!
-						</a>
-							<p>This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians based...
-							</p>
-						</section>
-
-						<section>Read More
-						</section>
-
-						<footer>
-
-						<img src="#" alt="">
-
-						<p>
-						<span>Posted by Netmatters Ltd
-						</span>
-
-						<time datetime="2021-07-07">8th June 2021
-						</time>
-						</p>
-
-						</footer>
-
-					</section>
+					<aside class="latest__news">
 						<!--  -->
 						<section class="latest__news__card">
 
@@ -313,63 +284,99 @@
 							</footer>
 
 						</section>
-					<!--  -->
-					<section class="latest__news__card">
+							<!--  -->
+						<section class="latest__news__card">
 
-						<section>
+							<section>
+								<img src="#" alt="">
+								<aside>
+									<a href="">Insites
+									</a>
+								</aside>
+							</section>
+
+							<section>
+							<a href="#">Happy 25th Birthday Gabriel!
+							</a>
+								<p>This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians based...
+								</p>
+							</section>
+
+							<section>Read More
+							</section>
+
+							<footer>
+
 							<img src="#" alt="">
-							<aside>
-								<a href="">Insites
-								</a>
-							</aside>
-						</section>
 
-						<section>
-						<a href="#">Happy 25th Birthday Gabriel!
-						</a>
-							<p>This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians based...
+							<p>
+							<span>Posted by Netmatters Ltd
+							</span>
+
+							<time datetime="2021-07-07">8th June 2021
+							</time>
 							</p>
+
+							</footer>
+
+							</section>
+						<!--  -->
+						<section class="latest__news__card">
+
+							<section>
+								<img src="#" alt="">
+								<aside>
+									<a href="">Insites
+									</a>
+								</aside>
+							</section>
+
+							<section>
+							<a href="#">Happy 25th Birthday Gabriel!
+							</a>
+								<p>This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians based...
+								</p>
+							</section>
+
+							<section>Read More
+							</section>
+
+							<footer>
+
+							<img src="#" alt="">
+
+							<p>
+							<span>Posted by Netmatters Ltd
+							</span>
+
+							<time datetime="2021-07-07">8th June 2021
+							</time>
+							</p>
+
+							</footer>
+
 						</section>
 
-						<section>Read More
-						</section>
+					</aside>
 
-						<footer>
-
-						<img src="#" alt="">
-
-						<p>
-						<span>Posted by Netmatters Ltd
-						</span>
-
-						<time datetime="2021-07-07">8th June 2021
-						</time>
-						</p>
-
-						</footer>
-
+				</div>
+				<!--  -->
+				<!-- Brand logos -->
+				<div class="container">
+					<!--  -->
+					<section class="">
+						<img src="#" alt="Busseys company Logo.">
+						<img src="#" alt="Crane company Logo">
+						<img src="#" alt="Beat company Logo">
+						<img src="#" alt="Northern Diver company Logo">
 					</section>
-
-				</aside>
-
-			</div>
-			<!--  -->
-			<!-- Brand logos -->
-			<div class="container">
+					<!--  -->
+				</div>
 				<!--  -->
-				<section class="">
-					<img src="#" alt="Busseys company Logo.">
-					<img src="#" alt="Crane company Logo">
-					<img src="#" alt="Beat company Logo">
-					<img src="#" alt="Northern Diver company Logo">
-				</section>
-				<!--  -->
-			</div>
-			<!--  -->
-			<!-- News letter sign-up -->
-			 <div class="container">
-				<!--  -->
-				<section>
+				<!-- News letter sign-up -->
+				 <div class="container">
+					<!--  -->
+					<section>
 					<!--  -->
 					<h1>Email Newsletter Sign-Up
 					</h1>
@@ -401,7 +408,6 @@
 					</section>
 					<!--  -->
 				</section>
-				<!--  -->
 			</div>
 			<!--  -->
 			<!-- Footer -->

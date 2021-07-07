@@ -31,15 +31,16 @@ body{
 .header {
   display: inline-flex;
   flex-direction: row;
-  flex: wrap;
+  flex-wrap: wrap;
   height: 100%;
   width: 100%;
 }
 //
 .header__inner{
 display: inline-flex;
-flex: inherit;
+flex-wrap: wrap;
 flex-direction: row;
+align-content: center;
 background-color: #fff;
 width: 100%;
 height: 10em;
@@ -49,13 +50,16 @@ align-items: center;
 }
 //
 .netmatters__logo {
-
-
+display: inline-flex;
+align-items: center;
+height: 100%;
+width: 90%;
 }
 //
 .netmatters__logo__img {
-  width: 100%;
-  height: 100%;
+  display: inline-flex;
+  height: 75%;
+  width: 90%;
 }
 //
 .header__buttons {
@@ -66,6 +70,21 @@ align-items: center;
   height: 20%;
 
 }
+
+.header_inner_top {
+  display: inline-flex;
+  flex-direction: row;
+  justify: flex-end;
+
+}
+
+.header__inner_bottom{
+  display: inline-flex;
+  width: 100%;
+  height: 30%;
+}
+
+
 //
 // .header__search {
 //   display: inline-flex;
@@ -78,13 +97,28 @@ align-items: center;
   font-size: 20px;
   align-self: flex-start;
   width: 100%;
-  height: 27%;
+  height: 90%;
+  align-self: flex-end;
+  align-content: space-around;
 }
 //
+
+.header__search__box > input {
+  width: 100%;
+  background-color: rgba(0,0,0,.1);
+  outline: 1px solid hsla(0,0%,100%,.2);
+  border: 2px solid rgba(0,0,0,.1);
+  width: 100%;
+
+
+
+}
 .header__phone {
   display: inline-flex;
   height: 100%;
+  width: 15%;
   color: black;
+
 }
 //
 .header__button__support {
@@ -97,8 +131,7 @@ align-items: center;
 //
 .header__button__large {
   display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   align-content: space-around;
   justify-content: space-around;
   align-items: center;
@@ -126,8 +159,7 @@ align-items: center;
   display: inline-flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  width: 56px;
+  width: 5em;
   height: 56px;
   border: 2px;
   border-radius: 4%;
@@ -142,5 +174,52 @@ align-items: center;
 //
 //
 .main__nav__button {
+
+}
+
+.slider {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.slider__header {
+
+}
+
+.slider__button {
+  background-color: yellow;
+  border: none;
+  color: red;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.slider__img {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.slider__img > img {
+  width: 100%;
+  height: 100%;
+  padding: none;
+}
+
+
+@media (max-width: 400px) {
+  .main__nav {
+    display: none;
+  }
+
 
 }
