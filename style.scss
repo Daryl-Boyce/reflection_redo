@@ -1,5 +1,5 @@
-
-body{
+// // //
+body {
   font-family: Poppins, sans-serif;
   font-size: 16px;
   text-decoration: none;
@@ -9,7 +9,7 @@ body{
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
-}
+  }
 //
 //
 //
@@ -21,45 +21,54 @@ body{
   flex-direction: row;
   justify-content: center;
   padding: 0px 15px;
-}
+  }
 //
 //
-.netmatters__logo {
-    text-decoration: none;
-}
+//
 //
 .header {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 100%;
+  height: 9.5em;
   width: 100%;
 }
 //
-.header__inner{
-display: inline-flex;
-flex-wrap: wrap;
-flex-direction: row;
-align-content: center;
-background-color: #fff;
-width: 100%;
-height: 10em;
-
-justify-content: space-around;
-align-items: center;
-}
+.header__inner {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  background-color: #fff;
+  width: 100%;
+  height: 10em;
+  justify-content: space-around;
+  align-items: center;
+  }
 //
 .netmatters__logo {
-display: inline-flex;
-align-items: center;
-height: 100%;
-width: 90%;
+  display: inline-flex;
+  align-items: center;
+  height: 3em;
+  width: 100%;
 }
 //
 .netmatters__logo__img {
   display: inline-flex;
-  height: 75%;
+  align-items: center;
+  height: 80%;
   width: 90%;
+}
+//
+.header__phone {
+  display: inline-flex;
+  height: 2em;
+  width: 15%;
+  align-items: center;
+  color: black;
+  transform: rotate(-45deg);
+  padding-right: 0.7em;
+
 }
 //
 .header__buttons {
@@ -70,27 +79,32 @@ width: 90%;
   height: 20%;
 
 }
-
+//
 .header_inner_top {
   display: inline-flex;
   flex-direction: row;
   justify: flex-end;
-
+  width: 100%;
 }
-
-.header__inner_bottom{
+//
+.header__button__menu {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  width: 5.5em;
+  height: 56px;
+  border: 2px;
+  border-radius: 4%;
+  color: #fff;
+  font-variant-caps: all-small-caps;
+  background-color: #333645;
+}
+//
+.header__inner__bottom {
   display: inline-flex;
   width: 100%;
   height: 30%;
 }
-
-
-//
-// .header__search {
-//   display: inline-flex;
-//   width: 100%;
-//   height: 70%;
-// }
 //
 .header__search__box {
   display: inline-flex;
@@ -102,23 +116,12 @@ width: 90%;
   align-content: space-around;
 }
 //
-
 .header__search__box > input {
   width: 100%;
   background-color: rgba(0,0,0,.1);
   outline: 1px solid hsla(0,0%,100%,.2);
   border: 2px solid rgba(0,0,0,.1);
   width: 100%;
-
-
-
-}
-.header__phone {
-  display: inline-flex;
-  height: 100%;
-  width: 15%;
-  color: black;
-
 }
 //
 .header__button__support {
@@ -144,7 +147,6 @@ width: 90%;
   color: #fff;
 }
 //
-//
 .header__button__search {
   display: inline-flex;
   align-items: center;
@@ -155,45 +157,38 @@ width: 90%;
   align-content: center;
 }
 //
-.header__button__menu {
-  display: inline-flex;
-  align-items: center;
-  flex-direction: column;
-  width: 5em;
-  height: 56px;
-  border: 2px;
-  border-radius: 4%;
-  color: #fff;
-  font-variant-caps: all-small-caps;
-  background-color: #333645;
-}
-.main__nav{
+.header__menu__lines {
+  width: 2em;
+  height: 1em;
 
 }
 //
-//
-//
+.main__nav {
+}
 //
 .main__nav__button {
 
 }
-
+//
 .slider {
   display: inline-flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 33em;
   background: url("Slider__background.jpg");
 }
-
+//
 .slider__header {
 
 }
+//
 .slider__dots{
   display: inline-flex;
   width: 100%;
   border: none;
+  justify-content: space-around;
 }
 //
 .slider__dots__inner {
@@ -207,21 +202,26 @@ width: 90%;
   margin: 4px 2px;
   border-radius: 50%;
 }
-
+//
 .slider__img {
   display: inline-flex;
   justify-content: center;
   width: 100%;
   height: 100%;
 }
-
+//
+.slider__dots___selected {
+  box-shadow: 0px 0px 0px 3px blue;
+}
+//
 .slider__img > img {
   width: 100%;
   height: 100%;
   padding: none;
 }
-
-
+//
+//
+//
 @media (max-width: 400px) {
   .main__nav {
     display: none;
@@ -229,3 +229,4 @@ width: 90%;
 
 
 }
+//   //  //
