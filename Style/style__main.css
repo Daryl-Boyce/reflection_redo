@@ -21,7 +21,7 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background-color: #fff;
+  background-color: #e9f2ec;
   height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -294,9 +294,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid #000;
+  border: 1.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
   background-color: #fff;
-  height: 275px;
+  height: 350px;
   margin-top: 75px;
   text-align: justify;
   -webkit-box-pack: center;
@@ -328,7 +329,8 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: pink;
+  background: #67809f;
+  color: white;
 }
 
 .middle__nav__card__text {
@@ -352,4 +354,17 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-weight: 850;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.middle__nav__card__text > p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 90%;
+  height: 60px;
+  font-weight: 450;
+  font-size: 13px;
+  word-spacing: normal;
+  text-align: center;
 }

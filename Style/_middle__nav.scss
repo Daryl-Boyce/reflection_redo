@@ -9,9 +9,10 @@
 .middle__nav__card {
   display: inline-flex;
   flex-direction: column;
-  border: 1px solid #000;
+  border: 1.5px solid rgb(0, 0, 0, 0.3);
+  border-radius: 3px;
   background-color: #fff;
-  height: 275px;
+  height: 350px;
   margin-top: 75px;
   text-align: justify;
   justify-content: center;
@@ -28,7 +29,8 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: pink;
+  background: #67809f;
+  color: white;
 
 }
 
@@ -43,4 +45,15 @@
 .card__header__font {
   display: inline-flex;
   font-weight: 850;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.middle__nav__card__text > p {
+  display: inline-flex;
+  width: 90%;
+  height: 60px;
+  font-weight: 450;
+  font-size: 13px;
+  word-spacing: normal;
+  text-align: center;
 }
