@@ -9,14 +9,14 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #e9f2ec;
+  background-color: #FFFFF9;
   }
 //
 //
 //
 .container {
   display: inline-flex;
-  background-color: #e9f2ec;
+  background-color: #FFFFF9;
   height: 100%;
   flex-direction: row;
   justify-content: center;
@@ -85,16 +85,17 @@ body {
   flex-direction: row;
   justify: flex-end;
   width: 100%;
+  padding-bottom: 10px;
 }
 //
 .header__button__menu {
   display: inline-flex;
   align-items: center;
   flex-direction: column;
-  width: 5.5em;
-  height: 56px;
+  width: 5.7em;
+  height: 54px;
   border: 2px;
-  border-radius: 4%;
+  border-radius: 6%;
   color: #fff;
   font-variant-caps: all-small-caps;
   background-color: #333645;
@@ -104,29 +105,54 @@ body {
   display: inline-flex;
   width: 100%;
   height: 30%;
+  position: relative;
 }
 //
 .header__search__box {
-  display: inline-flex;
-  font-size: 20px;
-  align-self: flex-start;
-  width: 100%;
-  height: 90%;
-  align-self: flex-end;
-  align-content: space-around;
+display: inline-flex;
+font-size: 20px;
+align-self: flex-start;
+width: 100%;
+height: 100%;
+align-self: flex-end;
+justify-content: flex-end;
+align-items: center;
 }
+
+.search__icon__wrapper {
+  display: inline-flex;
+}
+
+
+
+
+.search__icon{
+  display: inline-flex;
+  position: absolute;
+  color: #000;
+}
+
+
 //
 .header__search__box > input {
   width: 100%;
+  height: 90%;
   background-color: rgba(0,0,0,.1);
   outline: 1px solid hsla(0,0%,100%,.2);
   border: 2px solid rgba(0,0,0,.1);
-  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 350px;
 }
 //
 .header__button__support {
   background-color: #4183d7;
 }
+
+.header__search__box > i {
+  padding: 10px;
+}
+
 //
 .header__button__contact {
   background-color: #999aa2;
@@ -163,13 +189,19 @@ body {
 
 }
 //
+.middle__nav__card__break{
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  border: none;
+}
+//
 //
 //
 .main__nav {
 }
 //
 .main__nav__button {
-
 }
 //
 //
@@ -224,6 +256,8 @@ body {
   padding: none;
 
 }
+
+
 //
 //
 //

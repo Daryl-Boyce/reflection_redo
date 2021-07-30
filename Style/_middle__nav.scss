@@ -2,6 +2,7 @@
 .middle__nav {
   display: inline-flex;
   flex-direction: column;
+  padding-bottom: 30px;
   width: 100%;
 
 }
@@ -12,7 +13,7 @@
   border: 1.5px solid rgb(0, 0, 0, 0.3);
   border-radius: 3px;
   background-color: #fff;
-  height: 350px;
+  height: 340px;
   margin-top: 75px;
   text-align: justify;
   justify-content: center;
@@ -29,7 +30,6 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #67809f;
   color: white;
 
 }
@@ -52,8 +52,53 @@
   display: inline-flex;
   width: 90%;
   height: 60px;
-  font-weight: 450;
-  font-size: 13px;
+  font-weight: 700px;
+  font-size: 14px;
   word-spacing: normal;
   text-align: center;
+  letter-spacing: 0.1px;
+  word-spacing: 0.3px;
+  padding-bottom: 25px;
+}
+
+.middle__nav__read__more {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 2.9em;
+  width: 8.2em;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px;
+  border-radius: 4%;
+  background: #67809f;
+  color: white;
+}
+
+//
+// Colours for icons
+//
+.card__color__blue {
+  background-color:  #67809f;
+}
+.card__color__light__blue {
+  background-color: #286abd;
+}
+.card__color__green {
+  background-color: #2ecc71;
+}
+.card__color__red {
+  background-color: #d64541;
+}
+.card__color__purple {
+  background-color: #926fb1;
+}
+.card__color__light__red {
+  background-color: #f62459;
+}
+.card__color__purple {
+  background-color: #926fb1;
 }
