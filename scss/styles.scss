@@ -1,5 +1,7 @@
-@use "partials/_description_aside";
+@use "partials/_description_aside.scss";
 
-@use "partials/_middle_nav";
+@use "partials/_middle_nav.scss";
 
-@use "partials/_styles";
+@use "partials/_styles.scss";
+
+@use "partials/_header.scss"
