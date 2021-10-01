@@ -1,7 +1,11 @@
-@use "partials/_description_aside.scss";
+@use "partials/_description__aside.scss";
 
-@use "partials/_middle_nav.scss";
+@use "partials/_middle__nav.scss";
 
-@use "partials/_styles.scss";
+@use "partials/_home.scss";
 
-@use "partials/_header.scss"
+@use "partials/_header.scss";
+
+@use "partials/_slider.scss";
+
+@use "partials/_main__nav.scss";
