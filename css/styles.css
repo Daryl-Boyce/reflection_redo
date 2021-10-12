@@ -3,50 +3,81 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 45em;
+  height: 60%;
   background-color: #333645;
-  color: #fff;
-  padding-top: 10px;
-}
-
-.description__aside__inner > h1 {
-  display: inline-flex;
-  font-weight: bold;
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.description__aside__inner > p {
-  display: inline-flex;
-  flex-wrap: wrap;
-  font-weight: 580;
-  font-size: 17;
+  color: #f7f7f7;
 }
 
 .description__aside__inner {
+  display: flex;
   background-color: #333645;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 4%;
 }
-
-#bold__paragraph {
+.description__aside__inner h1 {
+  display: inline-flex;
+  height: 5%;
   font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.description__aside__inner :nth-child(2) {
+  display: inline-flex;
+  height: 17%;
+  flex-wrap: wrap;
+  text-align: left;
+  line-height: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 14.75px;
+  padding-right: 10%;
+  margin-bottom: 1%;
+}
+.description__aside__inner :nth-child(3) {
+  display: inline-flex;
+  height: 17%;
+  flex-wrap: wrap;
+  text-align: left;
+  line-height: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 700px;
+  font-size: 14.75px;
+  margin-bottom: 1%;
+  margin-top: 7%;
+  padding-right: 9%;
+}
+.description__aside__inner :nth-child(4) {
+  display: inline-flex;
+  height: 17%;
+  flex-wrap: wrap;
+  text-align: left;
+  line-height: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 700px;
+  font-size: 14.75px;
+  padding-right: 10%;
+  margin-bottom: 1%;
 }
 
 .description_link {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-around;
   align-items: center;
-  height: 2.9em;
-  width: 9.6em;
+  height: 8%;
+  width: 34%;
   font-size: 16px;
   text-transform: uppercase;
   border: 2px;
   border-radius: 4%;
-  background: #ebebeb;
+  background: #d4d4d4;
   color: black;
+  margin: 11% 0% 11% 0%;
 }
 
 .middle__nav {
@@ -344,6 +375,28 @@ body {
 
 .main__nav {
   display: none;
+}
+
+.latest__news__card {
+  display: flex;
+  width: 100%;
+  height: 37rem;
+  background: #e2d9d9;
+  margin: 8% 0% 8% 0%;
+  flex-direction: column;
+}
+.latest__news__card img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.latest__news__card__header {
+  display: flex;
+}
+
+.latest__news__card__body {
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
