@@ -21,7 +21,7 @@
   .netmatters__logo {
     display: inline-flex;
     align-items: center;
-    height: 3em;
+    height: 4em;
     width: 100%;
   }
   //
@@ -64,6 +64,7 @@
     display: inline-flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
     width: 5.7em;
     height: 54px;
     border: 2px;
@@ -156,9 +157,15 @@
   }
 
   .header__button__menu__burger{
-    
+        width: 50%;
+        height: 3px;
+        background-color: white;
+        border: none;
+        margin: 5px 0px -5px 0px;
   }
   //
+  .header__button__menu__text {
+    display: flex;
+    padding-top: -50px;
+  }
   
-  //
- 

@@ -103,6 +103,126 @@
   font-family: inherit;
 }
 
+.card__hover__blue:hover {
+  background-color: #67809f;
+  color: white;
+  border-color: #67809f;
+}
+.card__hover__blue:hover h2 {
+  color: white;
+}
+.card__hover__blue:hover .middle__nav__read__more {
+  background-color: white;
+  color: #67809f;
+}
+.card__hover__blue:hover .middle__nav__card__break {
+  background-color: white;
+}
+.card__hover__blue:hover .middle__nav__card__icon {
+  background-color: white;
+  color: #67809f;
+}
+
+.card__hover__light__blue:hover {
+  background-color: #286abd;
+  color: white;
+  border-color: #286abd;
+}
+.card__hover__light__blue:hover h2 {
+  color: white;
+}
+.card__hover__light__blue:hover .middle__nav__read__more {
+  background-color: white;
+  color: #286abd;
+}
+.card__hover__light__blue:hover .middle__nav__card__break {
+  background-color: white;
+}
+.card__hover__light__blue:hover .middle__nav__card__icon {
+  background-color: white;
+  color: #286abd;
+}
+
+.card__hover__green:hover {
+  background-color: #2ecc71;
+  color: white;
+  border-color: #2ecc71;
+}
+.card__hover__green:hover h2 {
+  color: white;
+}
+.card__hover__green:hover .middle__nav__read__more {
+  background-color: white;
+  color: #2ecc71;
+}
+.card__hover__green:hover .middle__nav__card__break {
+  background-color: white;
+}
+.card__hover__green:hover .middle__nav__card__icon {
+  background-color: white;
+  color: #2ecc71;
+}
+
+.card__hover__red:hover {
+  background-color: #d64541;
+  color: white;
+  border-color: #d64541;
+}
+.card__hover__red:hover h2 {
+  color: white;
+}
+.card__hover__red:hover .middle__nav__read__more {
+  background-color: white;
+  color: #d64541;
+}
+.card__hover__red:hover .middle__nav__card__break {
+  background-color: white;
+}
+.card__hover__red:hover .middle__nav__card__icon {
+  background-color: white;
+  color: #d64541;
+}
+
+.card__hover__purple:hover {
+  background-color: #926fb1;
+  color: white;
+  border-color: #926fb1;
+}
+.card__hover__purple:hover h2 {
+  color: white;
+}
+.card__hover__purple:hover .middle__nav__read__more {
+  background-color: white;
+  color: #926fb1;
+}
+.card__hover__purple:hover .middle__nav__card__break {
+  background-color: white;
+}
+.card__hover__purple:hover .middle__nav__card__icon {
+  background-color: white;
+  color: #926fb1;
+}
+
+.card__hover__light__red:hover {
+  background-color: #f62459;
+  color: white;
+  border-color: #f62459;
+}
+.card__hover__light__red:hover h2 {
+  color: white;
+}
+.card__hover__light__red:hover .middle__nav__read__more {
+  background-color: white;
+  color: #f62459;
+}
+.card__hover__light__red:hover .middle__nav__card__break {
+  background-color: white;
+}
+.card__hover__light__red:hover .middle__nav__card__icon {
+  background-color: white;
+  color: #f62459;
+}
+
 .middle__nav__card__icon {
   display: inline-flex;
   flex-direction: column;
@@ -111,6 +231,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  background-color: #67809f;
   color: white;
 }
 
@@ -165,6 +286,10 @@
   border: none;
 }
 
+.middle__nav__text__style {
+  text-decoration: none;
+}
+
 .card__color__blue {
   background-color: #67809f;
 }
@@ -182,11 +307,11 @@
 }
 
 .card__color__purple {
-  background-color: #926fb1;
+  background: #926fb1;
 }
 
 .card__color__light__red {
-  background-color: #f62459;
+  background: #f62459;
 }
 
 .card__color__purple {
@@ -238,7 +363,7 @@ body {
 .netmatters__logo {
   display: inline-flex;
   align-items: center;
-  height: 3em;
+  height: 4em;
   width: 100%;
 }
 
@@ -279,6 +404,7 @@ body {
   display: inline-flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
   width: 5.7em;
   height: 54px;
   border: 2px;
@@ -364,6 +490,19 @@ body {
   align-content: center;
 }
 
+.header__button__menu__burger {
+  width: 50%;
+  height: 3px;
+  background-color: white;
+  border: none;
+  margin: 5px 0px -5px 0px;
+}
+
+.header__button__menu__text {
+  display: flex;
+  padding-top: -50px;
+}
+
 .slider {
   display: flex;
   width: 100%;
@@ -397,6 +536,25 @@ body {
 
 .latest__news__card__body {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 70%;
+}
+.latest__news__card__body a {
+  padding-left: 15px;
+}
+
+.latest__news__card__footer {
+  display: flex;
+  width: 100%;
+  height: 30%;
+}
+.latest__news__card__footer hr {
+  width: 73%;
+  height: 1px;
+  background-color: #3a3939;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
