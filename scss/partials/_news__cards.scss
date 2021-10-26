@@ -1,5 +1,5 @@
 
-.lastest__news{
+.latest__news__latest{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -7,21 +7,24 @@
     align-items: flex-start;
     justify-content: center;
     align-content: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     font-size: 21px;
-     font-family: poppins, sans-serif;
-     font-weight: 600;
-     text-transform: uppercase;
-     margin-top: 30px;
-     hr{
-         display: flex;
-         width: 15%;
-         height: 3.6%;
-         border: 1px solid rgb(51, 50, 50);
-         background-color: rgb(51, 50, 50);
-         margin-top: 50px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-right: 30px;
 
-     }
+    hr{
+        display: flex;
+        width: 15%;
+        height: 3.6%;
+        border: 1px solid rgb(51, 50, 50);
+        background-color: rgb(51, 50, 50);
+        margin-top: 30px;
+        margin-left: 0px;
+
+    }
 }
 
 
