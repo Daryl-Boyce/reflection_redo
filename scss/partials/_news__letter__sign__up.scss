@@ -1,0 +1,128 @@
+// 
+// 
+// Main Classes
+.news__letter__sign__up {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35em;
+    background-color: #ddd;
+}
+
+.news__letter__sign__up__inner {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 0px 20px;
+
+    h3{
+        display: flex;
+        margin-bottom: 0px;
+    }
+}
+
+.red__astrix{
+    display: flex;
+    width: 10%;
+    color: red;
+}
+
+
+.news__letter__sign__up__subscribe {
+    display: flex;
+    width: 8em;
+    height: 3em;
+    border: 2px;
+    border-radius: 4%;
+    background-color: #333645;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 40px;
+} 
+
+// 
+// 
+// Id's
+#sign_up {
+    display: flex;
+    width: 10em;
+}
+
+#your__name__search__input {
+    display: flex;
+    width: 80%;
+    height: 3em;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid rgb(212, 210, 210);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 350px;
+}
+
+#your__email__search__input {
+    display: flex;
+    width: 80%;
+    height: 3em;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid rgb(212, 210, 210);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 350px;
+}
+
+// 
+// 
+// Tickbox 
+[type="checkbox"]{
+    opacity: 0;
+}
+
+[type="checkbox"] + label{
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+    color: #333645;
+    
+    line-height:25px;
+}
+
+[type="checkbox"] + label::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 27px;
+    height: 27px;
+    outline: 2px solid ;
+    background: #fff;
+}
+
+[type="checkbox"]:checked + label::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 27px;
+    height: 27px;
+    outline: 2px solid #333645;
+    background: #fff;
+}
+
+[type="checkbox"]:checked + label::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 27px;
+    height: 27px;
+    background-image: url(../assets/check.png);
+    background-size: contain;
+    
+}
+// 
+// 
+// 
