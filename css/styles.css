@@ -87,18 +87,21 @@
 .middle__nav {
   display: inline-flex;
   flex-direction: column;
-  padding-bottom: 30px;
-  width: 100%;
+  padding-bottom: 1em;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .middle__nav__card {
   display: inline-flex;
   flex-direction: column;
-  border: 1.5px solid rgba(0, 0, 0, 0.3);
-  border-radius: 3px;
+  width: 100%;
+  object-fit: contain;
+  border: 0.1em solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.3em;
   background-color: #fff;
-  height: 340px;
-  margin-top: 75px;
+  height: 97%;
+  margin-top: 3em;
   text-align: justify;
   justify-content: center;
   align-items: center;
@@ -114,6 +117,9 @@
 }
 .card__hover__blue:hover h2 {
   color: white;
+}
+.card__hover__blue:hover i {
+  color: #67809f;
 }
 .card__hover__blue:hover .middle__nav__read__more {
   background-color: white;
@@ -135,6 +141,9 @@
 .card__hover__light__blue:hover h2 {
   color: white;
 }
+.card__hover__light__blue:hover i {
+  color: #286abd;
+}
 .card__hover__light__blue:hover .middle__nav__read__more {
   background-color: white;
   color: #286abd;
@@ -154,6 +163,9 @@
 }
 .card__hover__green:hover h2 {
   color: white;
+}
+.card__hover__green:hover i {
+  color: #2ecc71;
 }
 .card__hover__green:hover .middle__nav__read__more {
   background-color: white;
@@ -175,6 +187,9 @@
 .card__hover__red:hover h2 {
   color: white;
 }
+.card__hover__red:hover i {
+  color: #d64541;
+}
 .card__hover__red:hover .middle__nav__read__more {
   background-color: white;
   color: #d64541;
@@ -194,6 +209,9 @@
 }
 .card__hover__purple:hover h2 {
   color: white;
+}
+.card__hover__purple:hover i {
+  color: #926fb1;
 }
 .card__hover__purple:hover .middle__nav__read__more {
   background-color: white;
@@ -215,6 +233,9 @@
 .card__hover__light__red:hover h2 {
   color: white;
 }
+.card__hover__light__red:hover i {
+  color: #f62459;
+}
 .card__hover__light__red:hover .middle__nav__read__more {
   background-color: white;
   color: #f62459;
@@ -232,11 +253,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 4.5em;
+  height: 4.5em;
   border-radius: 50%;
   background-color: #67809f;
   color: white;
+}
+.middle__nav__card__icon i {
+  color: #fff;
 }
 
 .middle__nav__card__text {
@@ -374,8 +398,9 @@ body {
 .netmatters__logo__img {
   display: inline-flex;
   align-items: center;
-  height: 80%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .header__phone {
@@ -559,18 +584,21 @@ body {
   display: flex;
   width: 100%;
   height: 65%;
-  background: url(../assets/card__pic__2.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
   flex-direction: row;
   justify-content: flex-end;
+}
+.latest__news__card__header img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .latest__news__card__header__news__box {
   display: flex;
   width: 13%;
   height: 25px;
-  z-index: 1;
+  z-index: 3;
+  position: absolute;
   background-color: #4183d7;
   color: white;
   font-family: inherit;

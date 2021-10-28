@@ -23,13 +23,15 @@
     align-items: center;
     height: 4em;
     width: 100%;
+    
   }
   //
   .netmatters__logo__img {
     display: inline-flex;
     align-items: center;
-    height: 80%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
   }
   //
   .header__phone {
