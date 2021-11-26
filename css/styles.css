@@ -6,6 +6,7 @@
   height: 60%;
   background-color: #333645;
   color: #f7f7f7;
+  margin-top: 50px;
 }
 
 .description__aside__inner {
@@ -97,10 +98,10 @@
   flex-direction: column;
   width: 100%;
   object-fit: contain;
-  border: 0.1em solid rgba(0, 0, 0, 0.3);
+  border: 0.1em solid rgba(88, 88, 88, 0.3);
   border-radius: 0.3em;
   background-color: #fff;
-  height: 97%;
+  height: 98%;
   margin-top: 3em;
   text-align: justify;
   justify-content: center;
@@ -108,6 +109,7 @@
   flex-wrap: wrap;
   font-size: 0.8em;
   font-family: inherit;
+  box-shadow: 0px 0px 10px 0px #d8d8d8;
 }
 
 .card__hover__blue:hover {
@@ -287,7 +289,8 @@
   text-align: center;
   letter-spacing: 0.1px;
   word-spacing: 0.3px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
+  color: #0e0e0e;
 }
 
 .middle__nav__read__more {
@@ -305,6 +308,7 @@
   border-radius: 4%;
   background: #67809f;
   color: white;
+  margin-bottom: 15px;
 }
 
 .middle__nav__card__break {
@@ -316,6 +320,7 @@
 
 .middle__nav__text__style {
   text-decoration: none;
+  margin-top: 11px;
 }
 
 .card__color__blue {
@@ -410,7 +415,7 @@ body {
   align-items: center;
   color: black;
   transform: rotate(-45deg);
-  padding-right: 0.7em;
+  padding: 8px 0px 0px 15px;
 }
 
 .header__buttons {
@@ -451,7 +456,7 @@ body {
 }
 
 .header__search__box {
-  display: inline-flex;
+  display: flex;
   font-size: 20px;
   align-self: flex-start;
   width: 100%;
@@ -480,6 +485,7 @@ body {
   font-family: Poppins, sans-serif;
   font-size: 14px;
   font-weight: 350px;
+  padding: 0px 40px 0px 20px;
 }
 
 .header__button__support {
@@ -535,7 +541,7 @@ body {
 .slider {
   display: flex;
   width: 100%;
-  height: 900px;
+  height: 757px;
   background: url("../assets/Slider1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
