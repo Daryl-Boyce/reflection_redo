@@ -4,8 +4,6 @@
 
 @use "partials/_home.scss";
 
-@use "partials/_header.scss";
-
 @use "partials/_slider.scss";
 
 @use "partials/_main__nav.scss";
@@ -18,6 +16,6 @@
 
 @use "partials/_footer.scss";
 
+@use "partials/_header.scss";
 
-
-
+@use "partials/_media__queries.scss";

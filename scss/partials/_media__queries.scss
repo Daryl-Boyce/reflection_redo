@@ -1,0 +1,226 @@
+// 
+// 
+//  Screen Size 750px
+@media (min-width: 750px) {
+    ////////////////////////
+    /////// Header ////////
+    ///////////////////////
+    .header__button__menu {
+    width: 5.7em;
+    height: 3.5em;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__inner__bottom {
+        display: none;
+    }
+
+    .header {
+        height: 7.81em;
+    }
+
+    .header__inner__search__large {
+        display: flex;
+        width: 30em;
+        background-color: white;
+        margin-right: 1em;
+        margin-left: 20px;
+        border-radius: 5%;
+        
+    }
+
+    .header__inner__search__large__inner {
+        display: flex;
+        width: 100%;
+        
+
+    }
+
+    .search__bar {
+        display: flex;
+        background-color: white;
+        width: 70%;
+        border-top: 2px  solid rgb(214, 214, 214);
+        border-left: 2px  solid rgb(214, 214, 214);
+        border-bottom: 2px  solid rgb(214, 214, 214);
+        border-right: 0px;
+        border-radius: 2%;
+        padding-left: 10px;
+        align-items: center;
+        font-family: poppins, sans-serif;
+        font-size: 14px;
+        line-height: .4em;
+    }
+
+    .search__magnifying__glass {
+        display: flex;
+        background-color: #999aa2;
+        width: 30%;
+        border: 2px solid #999aa2;
+        border-left: 0px;
+        border-radius: 3%;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     /////////////////////// 
+    ///// Middle nav //////
+    ///////////////////////
+    .middle__nav__card {
+        width: 100%;
+    }
+
+    .middle__nav__text__style {
+        width: 49%;
+        height: 50%;
+    }
+    #magiglass{
+        color: white;
+    }
+
+    .card__wrapper__750 {
+        display: none;
+    }
+
+    .card__media__750 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .card__media__750__inner {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        div{
+        margin: 0px;
+        
+        }
+    }
+
+    .top__cards__750 {
+        width: 100%;
+    }
+
+    /* These are used to edit only two of the cards
+     rather then all of them.*/
+    #card__750__a{
+        display: flex;
+        margin-right: 10px;
+        
+    }
+
+    #card__750__b{
+        display: flex;
+        margin-right: 10px;
+        
+    }
+
+    ///////////////////////////
+    /////Description aside////
+    ///////////////////////////
+    .description__aside {
+        margin-top: 100px
+    }
+
+
+
+    .description_link{
+        margin: 30px 0px;
+        height:100%;
+        width:25%;
+    }
+
+
+     //////////////////////////
+    /////// news cards ///////
+    //////////////////////////
+    
+    #news__hide__card {
+        display: none;
+    }
+
+    
+    .latest__news {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    } 
+    .latest__news__card {
+        width: 42%;
+        height: 36rem;
+        margin: 6.2% 0% 8% 0%;
+    }
+
+    #news__lower__card {
+        margin: 60.5px 30px 60.5px 49px;
+    }
+
+    
+
+    .latest__news__card__body__inner__top {
+        
+        align-items: flex-start;
+        margin-left: 24px;
+
+        p {
+            margin: 14px 30px 12px 0px;
+        }
+
+
+        
+
+        
+
+    }
+
+    .latest__news__card__footer__logo {
+        width: 16%;
+        height: 47%;
+    }
+    
+    
+}
+
+
+
+@media (min-width: 990px){
+
+    .main__nav {
+        display: flex;
+        height:100%;
+        width: 100px                                                                                                                                             ;
+
+       
+    }
+
+    .main__nav__inner {
+        display: flex;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .main__nav__inner__button{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background-color: darkgreen;
+    }
+
+
+
+}
