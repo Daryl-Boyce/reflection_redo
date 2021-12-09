@@ -121,6 +121,7 @@
   }
   //
   .header__button__support {
+    display: none;
     background-color: #4183d7;
   }
   
@@ -130,6 +131,7 @@
   
   //
   .header__button__contact {
+    display: none;
     background-color: #999aa2;
   }
   //
@@ -180,5 +182,47 @@
     display: none;
   }
   
+  .header__buttons {
+    display: none;
+  }
   
   
+  .header__button__990__wrapper {
+    display: none;
+  }
+
+  // <div class="header__button__990__wrapper">
+	// 				    <div class=" header__button__support header__button__large ">
+	// 						<i class="fas fa-mouse"></i>
+	// 				    	Support
+	// 				    </div>
+	// 				    <div class=" header__button__contact header__button__large ">
+	// 						<i class="far fa-paper-plane"></i>
+	// 				    	Contact
+	// 				    </div> 
+	// 					<div class="header__inner__search__large">
+	// 						<div class="header__inner__search__large__inner">
+	// 							<input class="search__bar" placeholder= "Search...">
+	// 							</input>
+	// 							<div class="search__magnifying__glass" style="cursor: pointer">
+	// 								<i id="magiglass" class="fas fa-search fa-2x"></i>
+	// 							</div>
+	// 						</div>
+	// 					</div>
+	// 					<div class="header__button__menu" style="cursor: pointer">
+
+	// 					<div class="header__button__menu__burger">
+	// 					</div>
+
+	// 					<div class="header__button__menu__burger">
+	// 					</div>
+
+	// 					<div class="header__button__menu__burger">
+	// 					</div>
+
+
+	// 					<div class="header__button__menu__text">
+	// 						Menu
+	// 					</div>
+	// 					</div>
+	// 				</div>

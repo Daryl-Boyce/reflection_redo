@@ -88,10 +88,6 @@
   background: #dddbdb;
 }
 
-.fas {
-  color: #333645;
-}
-
 .middle__nav {
   display: inline-flex;
   flex-direction: column;
@@ -398,6 +394,10 @@ body {
 }
 
 .main__nav__inner__button {
+  display: none;
+}
+
+.nav__under__bar {
   display: none;
 }
 
@@ -939,6 +939,7 @@ footer hr {
 }
 
 .header__button__support {
+  display: none;
   background-color: #4183d7;
 }
 
@@ -947,6 +948,7 @@ footer hr {
 }
 
 .header__button__contact {
+  display: none;
   background-color: #999aa2;
 }
 
@@ -996,12 +998,24 @@ footer hr {
   display: none;
 }
 
+.header__buttons {
+  display: none;
+}
+
+.header__button__990__wrapper {
+  display: none;
+}
+
 @media (min-width: 750px) {
   .header__button__menu {
     width: 5.7em;
     height: 3.5em;
     padding-right: 10px;
     padding-left: 10px;
+  }
+
+  .header__buttons {
+    display: none;
   }
 
   .header__phone {
@@ -1155,10 +1169,90 @@ footer hr {
   }
 }
 @media (min-width: 990px) {
+  #search__hide__990 {
+    display: none;
+  }
+
+  #menu__hide__990 {
+    display: none;
+  }
+
+  .header__button__990__wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    margin-left: 150px;
+  }
+
+  .header {
+    height: 6.5em;
+  }
+
+  .header_inner_top {
+    justify-content: flex-end;
+    margin-left: 108px;
+    padding-bottom: 0px;
+  }
+
+  .netmatters__logo {
+    width: 30%;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+
+  .header__buttons {
+    width: 50%;
+    height: 60px;
+  }
+
+  .search__bar {
+    display: none;
+  }
+
+  .header__button__support {
+    display: flex;
+    color: white;
+  }
+
+  .header__button__contact {
+    display: flex;
+  }
+
+  .header__button__large {
+    display: flex;
+    margin-right: 15px;
+    width: 25%;
+  }
+
+  .header__button__menu {
+    width: 2.7em;
+    height: 3.4em;
+    margin-left: 10px;
+    margin-right: 70px;
+  }
+
+  .header__inner__search__large {
+    width: 3.8em;
+    height: 3.1em;
+    margin: 0px;
+  }
+
+  .header__inner__search__large__inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search__magnifying__glass {
+    height: 100%;
+    width: 100%;
+  }
+
   .main__nav {
     display: flex;
-    height: 100%;
-    width: 100px;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
   }
 
   .main__nav__inner {
@@ -1167,11 +1261,240 @@ footer hr {
     height: 100%;
   }
 
+  div.main__nav__inner__button:nth-of-type(1) {
+    background-color: #333645;
+    border-right: 1px solid #56586d79;
+    border-bottom: 1px solid #e0e2f779;
+    width: 80%;
+  }
+
+  div.main__nav__inner__button:nth-of-type(8) {
+    background-color: #333645;
+    border-right: 1px solid #56586d79;
+    border-bottom: 1px solid #e0e2f779;
+    width: 80%;
+  }
+
+  #main__nav__inner__button__one i {
+    color: #926fb1;
+    padding-bottom: 10px;
+  }
+
+  #main__nav__inner__button__two i {
+    color: #286abd;
+    padding-bottom: 10px;
+  }
+
+  #main__nav__inner__button__three i {
+    color: #d64541;
+    padding-bottom: 10px;
+  }
+
+  #main__nav__inner__button__four i {
+    color: #67809f;
+    padding-bottom: 10px;
+  }
+
+  #main__nav__inner__button__five i {
+    color: #2ecc71;
+    padding-bottom: 10px;
+  }
+
+  #main__nav__inner__button__six i {
+    color: #f62459;
+    padding-bottom: 10px;
+  }
+
+  #main__nav__inner__button__one:hover {
+    background-color: #926fb1;
+  }
+  #main__nav__inner__button__one:hover i {
+    color: #fff;
+  }
+
+  #main__nav__inner__button__one:hover .nav__under__bar {
+    display: flex;
+  }
+
+  #main__nav__inner__button__two:hover {
+    background-color: #286abd;
+  }
+  #main__nav__inner__button__two:hover i {
+    color: #fff;
+  }
+
+  #main__nav__inner__button__three:hover {
+    background-color: #d64541;
+  }
+  #main__nav__inner__button__three:hover i {
+    color: #fff;
+  }
+
+  #main__nav__inner__button__four:hover {
+    background-color: #67809f;
+  }
+  #main__nav__inner__button__four:hover i {
+    color: #fff;
+  }
+
+  #main__nav__inner__button__five:hover {
+    background-color: #2ecc71;
+  }
+  #main__nav__inner__button__five:hover i {
+    color: #fff;
+  }
+
+  #main__nav__inner__button__six:hover {
+    background-color: #f62459;
+  }
+  #main__nav__inner__button__six:hover i {
+    color: #fff;
+  }
+
+  #header__container__larger {
+    width: 100%;
+    padding: 0px;
+  }
+
   .main__nav__inner__button {
     display: flex;
-    height: 100%;
     width: 100%;
-    background-color: darkgreen;
+    height: 100%;
+    background-color: #333645;
+    border-left: 1px solid #1b1c2479;
+    border-right: 1px solid #56586d79;
+    border-bottom: 1px solid #e0e2f779;
+  }
+
+  .main__nav__inner__button__name {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .main__nav__inner__button__name span {
+    display: flex;
+    width: 80%;
+    height: 10%;
+    flex-direction: column;
+  }
+  .main__nav__inner__button__name i {
+    display: flex;
+  }
+
+  .main__nav__inner__button__name__small {
+    font-family: poppins, sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    align-items: center;
+    color: #fff;
+  }
+
+  .main__nav__inner__button__name__large {
+    font-family: poppins, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 50%;
+    align-items: center;
+    color: #fff;
+  }
+
+  .netmatters__logo {
+    width: 50%;
+  }
+
+  .nav__under__bar {
+    display: none;
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+  }
+
+  .nav__under__bar__list__one {
+    display: flex;
+    color: white;
+    width: 100%;
+    list-style-type: none;
+    font-family: poppings, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .nav__under__bar__list__two {
+    display: none;
+    color: white;
+    width: 100%;
+    list-style-type: none;
+    font-family: poppings, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .nav__under__bar__list__three {
+    display: none;
+    color: white;
+    width: 100%;
+    list-style-type: none;
+    font-family: poppings, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .nav__under__bar__list__four {
+    display: none;
+    color: white;
+    width: 100%;
+    list-style-type: none;
+    font-family: poppings, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .nav__under__bar__list__five {
+    display: none;
+    color: white;
+    width: 100%;
+    list-style-type: none;
+    font-family: poppings, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .nav__under__bar__list__six {
+    display: none;
+    color: white;
+    width: 100%;
+    list-style-type: none;
+    font-family: poppings, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+}
+@media (min-width: 1550px) {
+  .search__bar {
+    display: flex;
+    height: 96%;
+  }
+
+  .header__button__large {
+    display: flex;
+    margin-right: 19px;
+    width: 15%;
+  }
+
+  .search__magnifying__glass {
+    height: 100%;
+    width: 20%;
+  }
+
+  .header__inner__search__large {
+    width: 22.8em;
+    height: 3.1em;
+    margin: 0px;
   }
 }
 
