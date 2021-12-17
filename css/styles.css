@@ -573,7 +573,7 @@ body {
 .news__letter__sign__up__inner {
   display: flex;
   flex-direction: column;
-  padding: 30px 20px 0px 20px;
+  padding: 30px 0px 0px 20px;
 }
 .news__letter__sign__up__inner h1 {
   display: flex;
@@ -582,7 +582,6 @@ body {
   letter-spacing: 0.4px;
   font-family: sans-serif;
   color: #333645;
-  padding-right: 16.66em;
 }
 .news__letter__sign__up__inner a {
   color: #333645;
@@ -823,12 +822,29 @@ footer hr {
   padding-left: 8px;
 }
 
+.header__sticky {
+  display: inline-flex;
+  background-color: #ffffff;
+  height: 23%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 4;
+  transition: height 300ms ease;
+}
+
+.sticky {
+  position: fixed;
+  height: 14%;
+}
+
 .header {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: 9.5em;
   width: 100%;
+  transition: position 300ms ease-in;
 }
 
 .header__inner {
@@ -1250,7 +1266,7 @@ footer hr {
 
   .main__nav {
     display: flex;
-    height: 100px;
+    height: 110px;
     width: 100%;
     z-index: 1;
   }
@@ -1482,7 +1498,7 @@ footer hr {
 
   .header__button__large {
     display: flex;
-    margin-right: 19px;
+    margin-right: 18px;
     width: 15%;
   }
 

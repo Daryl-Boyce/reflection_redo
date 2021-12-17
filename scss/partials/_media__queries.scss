@@ -12,22 +12,23 @@
     padding-right: 10px;
     padding-left: 10px;
     }
-
+    // 
     .header__buttons{
         display: none;
     }
+    // 
     .header__phone {
         display: none;
     }
-
+    // 
     .header__inner__bottom {
         display: none;
     }
-
+    // 
     .header {
         height: 7.81em;
     }
-
+    // 
     .header__inner__search__large {
         display: flex;
         width: 30em;
@@ -36,12 +37,12 @@
         margin-left: 20px;
         border-radius: 5%;
     }
-
+    // 
     .header__inner__search__large__inner {
         display: flex;
         width: 100%;
     }
-
+    // 
     .search__bar {
         display: flex;
         background-color: white;
@@ -57,7 +58,7 @@
         font-size: 14px;
         line-height: .4em;
     }
-
+    // 
     .search__magnifying__glass {
         display: flex;
         background-color: #999aa2;
@@ -76,26 +77,27 @@
     .middle__nav__card {
         width: 100%;
     }
-
+    // 
     .middle__nav__text__style {
         width: 49%;
         height: 50%;
     }
+    // 
     #magiglass{
         color: white;
     }
-
+    // 
     .card__wrapper__750 {
         display: none;
     }
-
+    // 
     .card__media__750 {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
-
+    // 
     .card__media__750__inner {
         display: flex;
         width: 100%;
@@ -108,11 +110,11 @@
         margin: 0px;
         }
     }
-
+    // 
     .top__cards__750 {
         width: 100%;
     }
-
+    // 
     /* These are used to edit only two of the cards
      rather then all of them.*/
     #card__750__a{
@@ -131,25 +133,21 @@
     .description__aside {
         margin-top: 100px
     }
-
-
-
+    // 
     .description_link{
         margin: 30px 0px;
         height:100%;
         width:25%;
     }
-
-
+    // 
+    // 
      //////////////////////////
     /////// news cards ///////
     //////////////////////////
-    
     #news__hide__card {
         display: none;
     }
-
-    
+    // 
     .latest__news {
         display: flex;
         flex-wrap: nowrap;
@@ -160,13 +158,11 @@
         height: 36rem;
         margin: 6.2% 0% 8% 0%;
     }
-
+    // 
     #news__lower__card {
         margin: 60.5px 30px 60.5px 49px;
     }
-
-    
-
+    // 
     .latest__news__card__body__inner__top {
         
         align-items: flex-start;
@@ -176,13 +172,14 @@
             margin: 14px 30px 12px 0px;
         }
     }
-
+    // 
     .latest__news__card__footer__logo {
         width: 16%;
         height: 47%;
     }
 }
-    
+// 
+// 
      //////////////////////////////////////
     /////////Screen Size 990px///////////
     ////////////////////////////////////
@@ -194,13 +191,12 @@
     #search__hide__990{
         display: none;
     }
+    // 
     #menu__hide__990{
         display: none;
     }
-
-
-
-
+    // 
+    // 
     .header__button__990__wrapper {
         display: flex;
         width: 100%;
@@ -208,94 +204,80 @@
         padding-left: 0px;
         margin-left: 150px;
     }
-
+    // 
     .header {
         height: 6.5em;
     }
-
+    // 
     .header_inner_top{
         justify-content: flex-end;
         margin-left: 108px ;
         padding-bottom: 0px;
     }
+    // 
     .netmatters__logo {
         width: 30%;
         padding-right: 0px;
         margin-right: 0px;
     }
+    // 
     .header__buttons {
         width: 50%;
         height: 60px
     }
+    // 
     .search__bar {
         display: none;
     }
-
+    // 
     .header__button__support{
         display: flex;
         color: white;
     }
-
+    // 
     .header__button__contact{
         display: flex;
     }
-
+    // 
     .header__button__large {
         display: flex;
         margin-right: 15px;
         width: 25%;
     }
-
+    // 
     .header__button__menu{
         width: 2.7em;
         height: 3.4em;
         margin-left: 10px;
         margin-right: 70px;
     }
-
+    // 
     .header__inner__search__large {
         width: 3.8em;
         height: 3.1em;
         margin: 0px;
-
-
     }
-
+    // 
     .header__inner__search__large__inner {
         width: 100%;
         height: 100%;
-
     }
-
-
+    // 
     .search__magnifying__glass {
         height: 100%;
         width: 100%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // 
      ///////////////////////////
     /////////Main Nav///////////
     ///////////////////////////
     .main__nav {
         display: flex;
-        height:100px;
+        height:110px;
         width: 100%; 
         z-index: 1;
     }
-
+    // 
     .main__nav__inner {
         display: flex;
         width: 100%;
@@ -311,7 +293,7 @@ div.main__nav__inner__button:nth-of-type(1){
         border-bottom: 1px solid #e0e2f779;
         width: 80%;
     }
-
+    // 
     div.main__nav__inner__button:nth-of-type(8){
         background-color: #333645;
         border-right: 1px solid #56586d79;
@@ -404,20 +386,20 @@ div.main__nav__inner__button:nth-of-type(1){
             color: #fff;
         }
     }
+    // 
     #main__nav__inner__button__six:hover {
         background-color: #f62459;
         i{
             color: #fff;
         }
     }
-
-
+    // 
     #header__container__larger{
         width: 100%;
         padding: 0px;
     }
-
-
+    // 
+    // 
     .main__nav__inner__button{
         display: flex;
         width: 100%;
@@ -427,8 +409,8 @@ div.main__nav__inner__button:nth-of-type(1){
         border-right: 1px solid #56586d79;
         border-bottom: 1px solid #e0e2f779;
     }
-
-    .main__nav__inner__button__name{
+    // 
+    .main__nav__inner__button__name {
         display: flex;
         width: 100%;
         height: 100%;
@@ -449,6 +431,7 @@ div.main__nav__inner__button:nth-of-type(1){
             display: flex;
         }  
     }
+    // 
     .main__nav__inner__button__name__small {
         font-family: poppins, sans-serif;
         text-transform: uppercase;
@@ -456,7 +439,7 @@ div.main__nav__inner__button:nth-of-type(1){
         align-items: center;
         color: #fff;
     }
-
+    // 
     .main__nav__inner__button__name__large {
         font-family: poppins, sans-serif;
         text-transform: uppercase;
@@ -465,13 +448,9 @@ div.main__nav__inner__button:nth-of-type(1){
         align-items: center;
         color: #fff;
     }
-
+    // 
     .netmatters__logo{
         width: 50%;
-
-
-
-
     }
     // 
     // 
@@ -517,6 +496,7 @@ div.main__nav__inner__button:nth-of-type(1){
         text-transform: uppercase; 
         font-size: 13px;
     }
+    // 
     .nav__under__bar__list__four{
         display: none;
         color: white;
@@ -547,7 +527,7 @@ div.main__nav__inner__button:nth-of-type(1){
         font-size: 13px;
     }
     
-}
+    }
 // 
      //////////////////////////////////////
     /////////Screen Size 1550px///////////
@@ -561,35 +541,21 @@ div.main__nav__inner__button:nth-of-type(1){
         display: flex;
         height: 96%;
     }
-    
-
+    // 
     .header__button__large {
         display: flex;
-        margin-right: 19px;
+        margin-right: 18px;
         width: 15%;
-    }
-
+    } 
+    // 
     .search__magnifying__glass {
         height: 100%;
         width: 20%;
     }
-
+    // 
     .header__inner__search__large {
         width: 22.8em;
         height: 3.1em;
         margin: 0px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

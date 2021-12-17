@@ -1,10 +1,32 @@
+.header__sticky{
+  display: inline-flex;
+  background-color: #ffffff;
+  height: 23%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 4;
+  transition: height 300ms ease;
+}
+
+.sticky {
+  position: fixed;
+  height: 14%;
+  
+}
+
+// .test{
+//   padding-top: 114px;
+// }
+
 .header {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 9.5em;
     width: 100%;
-  }
+    transition: position 300ms ease-in;
+}
   //
   .header__inner {
     display: inline-flex;
