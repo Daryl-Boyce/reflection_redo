@@ -1,3 +1,5 @@
+
+
 // Makes the header stick and return on scroll up
 window.addEventListener('wheel', function(event)
 {
@@ -10,3 +12,6 @@ window.addEventListener('wheel', function(event)
     document.querySelector('.header__sticky').classList.remove('sticky');
  }
 });
+
+
+

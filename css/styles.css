@@ -364,7 +364,8 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #FFFFF9;
+  background-color: #ffffff;
+  z-index: 100;
 }
 
 .container {
@@ -376,15 +377,83 @@ body {
   padding: 0px 15px;
 }
 
-.slider {
-  display: flex;
-  width: 100%;
-  height: 757px;
-  background: url("../assets/Slider1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.mySlides {
+  display: none;
+  height: 100%;
+  z-index: -1;
 }
 
+img {
+  vertical-align: middle;
+  height: 600px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 560px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
 .main__nav {
   display: none;
 }
@@ -1511,6 +1580,56 @@ footer hr {
     width: 22.8em;
     height: 3.1em;
     margin: 0px;
+  }
+}
+.sidenav {
+  display: flex;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
   }
 }
 
