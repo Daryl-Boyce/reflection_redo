@@ -12,19 +12,9 @@ $cards = [];
 
 $conn = OpenCon();
 
-echo "Connected Successfully";
-print_r ($cards["3"]["createdBy"]);
+
 ?>
 
-<!-- <?php
-// include ('db__connection.php');
-
-// $conn = OpenCon();
-
-// echo "Connected Successfully";
-
-
-?> -->
 
 <body>
 
@@ -713,6 +703,7 @@ print_r ($cards["3"]["createdBy"]);
 						<a href="#"><?= array_key_exists("3", $cards) ? $cards["3"]["cardTitle"] : "Error loading cardTitle" ?>
 						</a>
 						<p >
+																					<!-- Error message if a number of row is selected that is not in the database -->
 						<?= array_key_exists("3", $cards) ? $cards["3"]["blurb"] : "Error loading blurb" ?>
 						</p>
 						<a href="#">
