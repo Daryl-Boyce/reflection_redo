@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
-		rel="stylesheet">
-	<script src="https://kit.fontawesome.com/8770348bdd.js" crossorigin="anonymous">
-	</script>
-	<title>Netmatters | Full Service Digital Agency | Norwich, Norfolk | Netmatters</title>
-</head>
+<!-- This calls the header files and uses them on the page. Can be used across all pages without the need to add the header -->
+<?php
+$cards = [];
+
+
+	include('header.php');
+	include('news__card__info.php');
+	include ('db__connection.php');
+
+
+
+$conn = OpenCon();
+
+
+?>
+
 
 <body>
 
@@ -612,18 +613,18 @@
 			<div id="news__lower__card" class="latest__news__card">
 
 				<div class="latest__news__card__header ">
-					<img src="../assets/card__pic__2.jpg" alt="Top subject picture of news cards">
+					<img src="<?= array_key_exists("1", $cards) ? $cards["1"]["headerImage"] : "Error loading headerImage" ?>" alt="Top subject picture of news cards">
 					<div class="latest__news__card__header__news__box">news</div>
 					<!-- <img src="\assets\card__pic__2.jpg" alt=""> -->
 				</div>
 
 				<div class="latest__news__card__body">
 					<div class="latest__news__card__body__inner__top">
-						<a  href="#">Happy 25th Birthday Gabriel!
+						<a  href="#">
+						<?= array_key_exists("1", $cards) ? $cards["1"]["cardTitle"] : "Error loading cardTitle" ?>
 						</a>
 						<p >
-							This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians
-							based...
+						<?= array_key_exists("1", $cards) ? $cards["1"]["blurb"] : "Error loading Blurb" ?>
 						</p>
 						<a class="read__more__button" href="#">
 							<div >
@@ -635,13 +636,13 @@
 
 					<div class="latest__news__card__footer">
 
-						<div class="latest__news__card__footer__logo"></div>
+						<img class="latest__news__card__footer__logo" src="<?= array_key_exists("1", $cards) ? $cards["1"]["footerImage"] : "Error loading footerImage" ?>"></img>
 
 						<p>
-							<span>Posted by Netmatters Ltd
+							<span><?= array_key_exists("1", $cards) ? $cards["1"]["createdBy"] : "Error loading createdBy" ?>
 							</span>
 
-							<time datetime="2021-07-07">8th June 2021
+							<time datetime="<?= array_key_exists("1", $cards) ? $cards["1"]["dateOfPost"] : "Error loading dateOfPost" ?>">8th June 2021
 							</time>
 						</p>
 
@@ -653,17 +654,17 @@
 
 
 				<div class="latest__news__card__header ">
-					<img src="../assets/card__pic__2.jpg" alt="Top subject picture of news cards">
+					<img src="<?= array_key_exists("2", $cards) ? $cards["2"]["headerImage"] : "Error loading headerImage" ?>" alt="Top subject picture of news cards">
 					<div class="latest__news__card__header__news__box">news</div>
 					<!-- <img src="\assets\card__pic__2.jpg" alt=""> -->
 				</div>
 
 				<div class="latest__news__card__body">
 					<div class="latest__news__card__body__inner__top">
-						<a href="#">Happy 25th Birthday Gabriel!
+						<a href="#"><?= array_key_exists("2", $cards) ? $cards["2"]["cardTitle"] : "Error loading cardTitle" ?>
 						</a>
-						<p >This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians
-							based...
+						<p >
+						<?= array_key_exists("2", $cards) ? $cards["2"]["blurb"] : "Error loading blurb" ?>
 						</p>
 							<div>
 								Read More
@@ -673,13 +674,14 @@
 
 					<div class="latest__news__card__footer">
 
-						<div class="latest__news__card__footer__logo"></div>
+					<img class="latest__news__card__footer__logo" src="<?= array_key_exists("2", $cards) ? $cards["2"]["footerImage"] : "Error loading footerImage" ?>"></img>
 
 						<p>
-							<span>Posted by Netmatters Ltd
+							<span>
+								<?= array_key_exists("2", $cards) ? $cards["2"]["createdBy"] : "Error loading createdBy" ?>
 							</span>
 
-							<time datetime="2021-07-07">8th June 2021
+							<time datetime="<?= array_key_exists("2", $cards) ? $cards["2"]["dateOfPost"] : "Error loading dateOfPost" ?>">8th June 2021
 							</time>
 						</p>
 
@@ -691,17 +693,18 @@
 			<div id="news__hide__card" class="latest__news__card">
 
 				<div class="latest__news__card__header ">
-					<img src="../assets/card__pic__2.jpg" alt="Top subject picture of news cards">
+					<img src="<?= array_key_exists("3", $cards) ? $cards["3"]["headerImage"] : "Error loading cardTitle" ?>" alt="Top subject picture of news cards">
 					<div class="latest__news__card__header__news__box">news</div>
 					<!-- <img src="\assets\card__pic__2.jpg" alt=""> -->
 				</div>
 
 				<div class="latest__news__card__body">
 					<div class="latest__news__card__body__inner__top">
-						<a href="#">Happy 25th Birthday Gabriel!
+						<a href="#"><?= array_key_exists("3", $cards) ? $cards["3"]["cardTitle"] : "Error loading cardTitle" ?>
 						</a>
-						<p >This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians
-							based...
+						<p >
+																					<!-- Error message if a number of row is selected that is not in the database -->
+						<?= array_key_exists("3", $cards) ? $cards["3"]["blurb"] : "Error loading blurb" ?>
 						</p>
 						<a href="#">
 							<div>
@@ -713,13 +716,14 @@
 
 					<div class="latest__news__card__footer">
 
-						<div class="latest__news__card__footer__logo"></div>
+					<img class="latest__news__card__footer__logo" src="<?= array_key_exists("3", $cards) ? $cards["3"]["footerImage"] : "Error loading footerImage" ?>"></img>
 
 						<p>
-							<span>Posted by Netmatters Ltd
+							<span>
+							<?= array_key_exists("3", $cards) ? $cards["3"]["createdBy"] : "Error loading createdBy" ?>
 							</span>
 
-							<time datetime="2021-07-07">8th June 2021
+							<time datetime="<?= array_key_exists("3", $cards) ? $cards["3"]["dateOfPost"] : "Error loading dateOfPost" ?>">8th June 2021
 							</time>
 						</p>
 
@@ -728,6 +732,7 @@
 
 
 			</div>
+			
 		</div>
 	</div>
 	<!--  -->
@@ -790,140 +795,7 @@
 			<!--  -->
 		</div>
 	<!--  -->
-	<!-- Footer -->
-	<footer >
-		<div class="footer__inner">
-			<!-- Inner sevices and about section -->
-			<div class="footer__inner__about__services">
-				<div class="footer__about">
-					<h3>ABOUT NETMATTERS</h3>
-					<ul class="footer__about__list">
-						<li class="footer_about__list_item">News
-						</li>
-						<li class="footer_about__list_item">Our Careers
-						</li>
-						<li class="footer_about__list_item">Our Team
-						</li>
-						<li class="footer_about__list_item">Our Office Tour
-						</li>
-						<li class="footer_about__list_item">Privacy Policy
-						</li>
-						<li class="footer_about__list_item">Cookie Policy
-						</li>
-						<li class="footer_about__list_item">Terms &copy; Conditions
-						</li>
-						<li class="footer_about__list_item">Enviromental Policy
-						</li>
-					</ul>
-				</div>
-				<!--  -->
-				<div class="footer__our__services">
-					<h3>OUR SERVICES</h3>
-					<ul class="footer__our__services__list">
-						<li class="footer_our__services__list_item">Bespoke Software
-						</li>
-						<li class="footer_our__services__list_item">IT Support
-						</li>
-						<li class="footer_our__services__list_item">Digital Marketing
-						</li>
-						<li class="footer_our__services__list_item">Telecoms Services
-						</li>
-						<li class="footer_our__services__list_item">Web Design
-						</li>
-						<li class="footer_our__services__list_item">Cyber Security
-						</li>
-						<li class="footer_our__services__list_item">Developer Training
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!--  -->
-			<!--  -->
-			<div class="footer__inner__branch">
-				<div class="footer__cambridge__branch">
-					<h3>CAMBRIDGE OFFICE</h3>
-					<ul class="footer__cambridge__branch__list">
-						<li class="footer__cambridge__branch__list__item">Unit 1.28,
-						</li>
-						<li class="footer__cambridge__branch__list__item">St John's Innovation Centre,
-						</li>
-						<li class="footer__cambridge__branch__list__item">Cowley Road, Milton,
-						</li>
-						<li class="footer__cambridge__branch__list__item">Cambridge,
-						</li>
-						<li class="footer__cambridge__branch__list__item">CB4 0WS
-						</li>
-					</ul>
-					<div>Tel: 01223 37 57 72</div>
-				</div>
-				<!--  -->
-				<div class="footer__wymondham__branch">
-					<h3>WYMONDHAM OFFICE</h3>
-					<ul class="footer__wymondham__branch__list">
-						<li class="footer__wymondham__branch__list__item">Unit 15,
-						</li>
-						<li class="footer__wymondham__branch__list__item">Penfold Drive,
-						</li>
-						<li class="footer__wymondham__branch__list__item">Gateway 11 Business Park,
-						</li>
-						<li class="footer__wymondham__branch__list__item">Wymondham, Norfolk,
-						</li>
-						<li class="footer__wymondham__branch__list__item">NR18 0WZ
-						</li>
-					</ul>
-					<div>Tel: 01603 70 40 20</div>
-				</div>
-				<!--  -->
-				<div class="footer__great__yarmouth__branch">
-					<h3>GREAT YARMOUTH OFFICE</h3>
-					<ul class="footer__great__yarmouth__branch__list">
-						<li class="footer__great__yarmouth__branch__list__item">Suite F23,
-						</li>
-						<li class="footer__great__yarmouth__branch__list__item">Beacon Innovation Centre,
-						</li>
-						<li class="footer__great__yarmouth__branch__list__item">Beacon Park, Gorleston,
-						</li>
-						<li class="footer__great__yarmouth__branch__list__item">Great Yarmouth, Norfolk,
-						</li>
-						<li class="footer__great__yarmouth__branch__list__item">NR31 7RA
-						</li>
-					</ul>
-					<div>Tel: 01493 60 32 04</div>
-				</div>
-			</div>
-			<!--  -->
-			<hr>
-			<div class="footer__inner__lower">
-				
-					<p>&copy; Copyright Netmatters Ltd. 2021 -
-						All rights reserved</p>
-					
-					<a href="">Sitemap</a>
-					
-					<div class="social__media">
-						<div class="social__media__buttons">
-							<div class="social__media__buttons__twitter">
-								<a href="#"><i class="fab fa-facebook-f"></i></a>
-							</div>
-							<div class="social__media__buttons__facebook">
-								<a href="#"><i class="fab fa-twitter"></i></a>
-							</div>
-							<div class="social__media__buttons__instagram">
-								<a href="#"><i class="fab fa-instagram"></i></a>
-							</div>
-							<div class="social__media__buttons__linkedin">
-								<a href="#"><i class="fab fa-linkedin-in"></i></a>
-							</div>
-						</div>
-					</div>
-					
-				
-			</div>
-
-			<!--  -->
-			
-		</div>
-	</footer>
+	
 			<!--  -->
 			<!-- <div class="awards__and__partners">
 				<ul>
@@ -948,3 +820,9 @@
 </body>
 
 </html>
+
+
+<!-- This calls the footer files and uses them on the page. Can be used across all pages without the need to add the footer -->
+<?php
+	include('footer.php');
+?>
