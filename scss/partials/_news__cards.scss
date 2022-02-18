@@ -69,8 +69,6 @@
     display: flex;
     width: 100%;
     height: 65%;
-    // background: url(../assets/card__pic__2.jpg);
-    // background-repeat: no-repeat;
     flex-direction: row;
     justify-content: flex-end; 
 
@@ -189,9 +187,13 @@
     display: flex;
     width: 15%;
     height: 70%;
-    background: url("../assets/net__matters__small__logo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 16px 0px 15px 0px;
-    
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+    margin-top: 7px;
 }
+    
+
+
+
+    
+

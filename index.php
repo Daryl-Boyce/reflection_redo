@@ -1,9 +1,30 @@
 
-<!-- This calls the header and footer files and uses them on the page. Can be used across all pages wouth the need to add the footer and header -->
+<!-- This calls the header files and uses them on the page. Can be used across all pages without the need to add the header -->
 <?php
+$cards = [];
+
+
 	include('header.php');
-	include('footer.php');
+	include('news__card__info.php');
+	include ('db__connection.php');
+
+
+
+$conn = OpenCon();
+
+echo "Connected Successfully";
+print_r ($cards["3"]["createdBy"]);
 ?>
+
+<!-- <?php
+// include ('db__connection.php');
+
+// $conn = OpenCon();
+
+// echo "Connected Successfully";
+
+
+?> -->
 
 <body>
 
@@ -602,18 +623,18 @@
 			<div id="news__lower__card" class="latest__news__card">
 
 				<div class="latest__news__card__header ">
-					<img src="../assets/card__pic__2.jpg" alt="Top subject picture of news cards">
+					<img src="<?= array_key_exists("1", $cards) ? $cards["1"]["headerImage"] : "Error loading headerImage" ?>" alt="Top subject picture of news cards">
 					<div class="latest__news__card__header__news__box">news</div>
 					<!-- <img src="\assets\card__pic__2.jpg" alt=""> -->
 				</div>
 
 				<div class="latest__news__card__body">
 					<div class="latest__news__card__body__inner__top">
-						<a  href="#">Happy 25th Birthday Gabriel!
+						<a  href="#">
+						<?= array_key_exists("1", $cards) ? $cards["1"]["cardTitle"] : "Error loading cardTitle" ?>
 						</a>
 						<p >
-							This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians
-							based...
+						<?= array_key_exists("1", $cards) ? $cards["1"]["blurb"] : "Error loading Blurb" ?>
 						</p>
 						<a class="read__more__button" href="#">
 							<div >
@@ -625,13 +646,13 @@
 
 					<div class="latest__news__card__footer">
 
-						<div class="latest__news__card__footer__logo"></div>
+						<img class="latest__news__card__footer__logo" src="<?= array_key_exists("1", $cards) ? $cards["1"]["footerImage"] : "Error loading footerImage" ?>"></img>
 
 						<p>
-							<span>Posted by Netmatters Ltd
+							<span><?= array_key_exists("1", $cards) ? $cards["1"]["createdBy"] : "Error loading createdBy" ?>
 							</span>
 
-							<time datetime="2021-07-07">8th June 2021
+							<time datetime="<?= array_key_exists("1", $cards) ? $cards["1"]["dateOfPost"] : "Error loading dateOfPost" ?>">8th June 2021
 							</time>
 						</p>
 
@@ -643,17 +664,17 @@
 
 
 				<div class="latest__news__card__header ">
-					<img src="../assets/card__pic__2.jpg" alt="Top subject picture of news cards">
+					<img src="<?= array_key_exists("2", $cards) ? $cards["2"]["headerImage"] : "Error loading headerImage" ?>" alt="Top subject picture of news cards">
 					<div class="latest__news__card__header__news__box">news</div>
 					<!-- <img src="\assets\card__pic__2.jpg" alt=""> -->
 				</div>
 
 				<div class="latest__news__card__body">
 					<div class="latest__news__card__body__inner__top">
-						<a href="#">Happy 25th Birthday Gabriel!
+						<a href="#"><?= array_key_exists("2", $cards) ? $cards["2"]["cardTitle"] : "Error loading cardTitle" ?>
 						</a>
-						<p >This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians
-							based...
+						<p >
+						<?= array_key_exists("2", $cards) ? $cards["2"]["blurb"] : "Error loading blurb" ?>
 						</p>
 							<div>
 								Read More
@@ -663,13 +684,14 @@
 
 					<div class="latest__news__card__footer">
 
-						<div class="latest__news__card__footer__logo"></div>
+					<img class="latest__news__card__footer__logo" src="<?= array_key_exists("2", $cards) ? $cards["2"]["footerImage"] : "Error loading footerImage" ?>"></img>
 
 						<p>
-							<span>Posted by Netmatters Ltd
+							<span>
+								<?= array_key_exists("2", $cards) ? $cards["2"]["createdBy"] : "Error loading createdBy" ?>
 							</span>
 
-							<time datetime="2021-07-07">8th June 2021
+							<time datetime="<?= array_key_exists("2", $cards) ? $cards["2"]["dateOfPost"] : "Error loading dateOfPost" ?>">8th June 2021
 							</time>
 						</p>
 
@@ -681,17 +703,17 @@
 			<div id="news__hide__card" class="latest__news__card">
 
 				<div class="latest__news__card__header ">
-					<img src="../assets/card__pic__2.jpg" alt="Top subject picture of news cards">
+					<img src="<?= array_key_exists("3", $cards) ? $cards["3"]["headerImage"] : "Error loading cardTitle" ?>" alt="Top subject picture of news cards">
 					<div class="latest__news__card__header__news__box">news</div>
 					<!-- <img src="\assets\card__pic__2.jpg" alt=""> -->
 				</div>
 
 				<div class="latest__news__card__body">
 					<div class="latest__news__card__body__inner__top">
-						<a href="#">Happy 25th Birthday Gabriel!
+						<a href="#"><?= array_key_exists("3", $cards) ? $cards["3"]["cardTitle"] : "Error loading cardTitle" ?>
 						</a>
-						<p >This week, we celebrate Gabriel Hamilton's 25th Birthday! Gabriel is one of the IT technicians
-							based...
+						<p >
+						<?= array_key_exists("3", $cards) ? $cards["3"]["blurb"] : "Error loading blurb" ?>
 						</p>
 						<a href="#">
 							<div>
@@ -703,13 +725,14 @@
 
 					<div class="latest__news__card__footer">
 
-						<div class="latest__news__card__footer__logo"></div>
+					<img class="latest__news__card__footer__logo" src="<?= array_key_exists("3", $cards) ? $cards["3"]["footerImage"] : "Error loading footerImage" ?>"></img>
 
 						<p>
-							<span>Posted by Netmatters Ltd
+							<span>
+							<?= array_key_exists("3", $cards) ? $cards["3"]["createdBy"] : "Error loading createdBy" ?>
 							</span>
 
-							<time datetime="2021-07-07">8th June 2021
+							<time datetime="<?= array_key_exists("3", $cards) ? $cards["3"]["dateOfPost"] : "Error loading dateOfPost" ?>">8th June 2021
 							</time>
 						</p>
 
@@ -718,6 +741,7 @@
 
 
 			</div>
+			
 		</div>
 	</div>
 	<!--  -->
@@ -805,3 +829,9 @@
 </body>
 
 </html>
+
+
+<!-- This calls the footer files and uses them on the page. Can be used across all pages without the need to add the footer -->
+<?php
+	include('footer.php');
+?>
