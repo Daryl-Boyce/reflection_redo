@@ -1,0 +1,140 @@
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,1
+MainWinLeft<|||>3<|||>102
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,298
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+LastSessions<|||>1<|||>Local DB
+LastActiveSession<|||>1<|||>Local DB
+SessionManager_WindowLeft<|||>3<|||>490
+ColWidths_frmTableEditor.listColumns<|||>1<|||>38,100,154,90,60,65,50,117,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>434,100,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>200,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,420
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+SessionManager_WindowTop<|||>3<|||>48
+MainWinOnMonitor<|||>3<|||>0
+CreateDbCollation<|||>1<|||>utf8_unicode_ci
+MemoEditorWidth<|||>3<|||>550
+MemoEditorHeight<|||>3<|||>420
+ColWidths_frmInsertFiles.ListColumns<|||>1<|||>100,80,295
+ColsVisible_frmInsertFiles.ListColumns<|||>1<|||>0,1,2
+ColPositions_frmInsertFiles.ListColumns<|||>1<|||>0,1,2
+ColSort_frmInsertFiles.ListColumns<|||>1<|||>-1,0
+ColWidths_frmInsertFiles.ListFiles<|||>1<|||>325,70,80
+ColsVisible_frmInsertFiles.ListFiles<|||>1<|||>0,1,2
+ColPositions_frmInsertFiles.ListFiles<|||>1<|||>0,1,2
+ColSort_frmInsertFiles.ListFiles<|||>1<|||>0,0
+dbtreewidth<|||>3<|||>479
+MainWinTop<|||>3<|||>0
+MainWinWidth<|||>3<|||>967
+MainWinHeight<|||>3<|||>1047
+querymemoheight<|||>3<|||>314
+SQLFile0<|||>1<|||>C:\Users\z3rot\Desktop\yaya.sql
+Servers\Local DB\SessionCreated<|||>1<|||>2022-02-15 14:02:53
+Servers\Local DB\Host<|||>1<|||>127.0.0.1
+Servers\Local DB\WindowsAuth<|||>3<|||>0
+Servers\Local DB\CleartextPluginEnabled<|||>3<|||>0
+Servers\Local DB\User<|||>1<|||>root
+Servers\Local DB\Password<|||>1<|||>2
+Servers\Local DB\LoginPrompt<|||>3<|||>0
+Servers\Local DB\Port<|||>1<|||>3306
+Servers\Local DB\NetType<|||>3<|||>0
+Servers\Local DB\Compressed<|||>3<|||>0
+Servers\Local DB\LocalTimeZone<|||>3<|||>0
+Servers\Local DB\QueryTimeout<|||>3<|||>30
+Servers\Local DB\KeepAlive<|||>3<|||>20
+Servers\Local DB\FullTableStatus<|||>3<|||>1
+Servers\Local DB\Databases<|||>1<|||>news__content
+Servers\Local DB\Library<|||>1<|||>libmariadb.dll
+Servers\Local DB\Comment<|||>1<|||>
+Servers\Local DB\StartupScriptFilename<|||>1<|||>
+Servers\Local DB\TreeBackground<|||>3<|||>536870911
+Servers\Local DB\SSHtunnelHost<|||>1<|||>
+Servers\Local DB\SSHtunnelHostPort<|||>3<|||>22
+Servers\Local DB\SSHtunnelUser<|||>1<|||>
+Servers\Local DB\SSHtunnelPassword<|||>1<|||>7
+Servers\Local DB\SSHtunnelTimeout<|||>3<|||>4
+Servers\Local DB\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Local DB\SSHtunnelPort<|||>3<|||>3307
+Servers\Local DB\SSL_Active<|||>3<|||>0
+Servers\Local DB\SSL_Key<|||>1<|||>
+Servers\Local DB\SSL_Cert<|||>1<|||>
+Servers\Local DB\SSL_CA<|||>1<|||>
+Servers\Local DB\SSL_Cipher<|||>1<|||>
+Servers\Local DB\IgnoreDatabasePattern<|||>1<|||>
+Servers\Local DB\ServerVersionFull<|||>1<|||>5.7.33 - MySQL Community Server (GPL)
+Servers\Local DB\ConnectCount<|||>3<|||>17
+Servers\Local DB\ServerVersion<|||>3<|||>50733
+Servers\Local DB\LastConnect<|||>1<|||>2022-02-21 19:35:19
+Servers\Local DB\lastUsedDB<|||>1<|||>news__content
+Servers\Local DB\RefusedCount<|||>3<|||>8
+Servers\Local DB\QueryHistory\1<|||>1<|||>2022-02-17 11:41:35|news__content|0|SELECT headerImage FROM newscards;<{{{><}}}><{{{><}}}>
+Servers\Local DB\QueryHistory\2<|||>1<|||>2022-02-17 11:41:53|news__content|0|SELECT * FROM newscards;<{{{><}}}><{{{><}}}>
+Servers\Local DB\QueryHistory\3<|||>1<|||>2022-02-17 11:42:48|news__content|0|SELECT * FROM newscards WHERE id="2";<{{{><}}}><{{{><}}}>
+Servers\Unnamed\SessionCreated<|||>1<|||>2022-02-16 13:20:23
+Servers\Unnamed\Host<|||>1<|||>127.0.0.1
+Servers\Unnamed\WindowsAuth<|||>3<|||>0
+Servers\Unnamed\CleartextPluginEnabled<|||>3<|||>0
+Servers\Unnamed\User<|||>1<|||>root
+Servers\Unnamed\Password<|||>1<|||>5
+Servers\Unnamed\LoginPrompt<|||>3<|||>0
+Servers\Unnamed\Port<|||>1<|||>3306
+Servers\Unnamed\NetType<|||>3<|||>0
+Servers\Unnamed\Compressed<|||>3<|||>0
+Servers\Unnamed\LocalTimeZone<|||>3<|||>0
+Servers\Unnamed\QueryTimeout<|||>3<|||>30
+Servers\Unnamed\KeepAlive<|||>3<|||>20
+Servers\Unnamed\FullTableStatus<|||>3<|||>1
+Servers\Unnamed\Databases<|||>1<|||>
+Servers\Unnamed\Library<|||>1<|||>libmariadb.dll
+Servers\Unnamed\Comment<|||>1<|||>
+Servers\Unnamed\StartupScriptFilename<|||>1<|||>
+Servers\Unnamed\TreeBackground<|||>3<|||>536870911
+Servers\Unnamed\SSHtunnelHost<|||>1<|||>
+Servers\Unnamed\SSHtunnelHostPort<|||>3<|||>22
+Servers\Unnamed\SSHtunnelUser<|||>1<|||>
+Servers\Unnamed\SSHtunnelPassword<|||>1<|||>2
+Servers\Unnamed\SSHtunnelTimeout<|||>3<|||>4
+Servers\Unnamed\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Unnamed\SSHtunnelPort<|||>3<|||>3307
+Servers\Unnamed\SSL_Active<|||>3<|||>0
+Servers\Unnamed\SSL_Key<|||>1<|||>
+Servers\Unnamed\SSL_Cert<|||>1<|||>
+Servers\Unnamed\SSL_CA<|||>1<|||>
+Servers\Unnamed\SSL_Cipher<|||>1<|||>
+Servers\Unnamed\IgnoreDatabasePattern<|||>1<|||>

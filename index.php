@@ -17,268 +17,15 @@ $conn = OpenCon();
 
 
 <body>
-
-	<!--___-___-->
-	<!-- Main header -->
-	<div class="header__sticky"  >
-		<header class="header">
-			<div class="header__inner">
-				<div class="header_inner_top">
-					<a class="netmatters__logo" href="#">
-						<img src="assets/f-logo.png" alt="Logo for netmatters company" class="netmatters__logo__img">
-					</a>
-					<div class="header__phone">
-						<i class="fas fa-2x fa-phone-volume">
-						</i>
-					</div>
-					
-					<div id="search__hide__990" class="header__inner__search__large">
-						<div class="header__inner__search__large__inner">
-							<input class="search__bar" placeholder= "Search...">
-							</input>
-							<div class="search__magnifying__glass" style="cursor: pointer">
-								<i id="magiglass" class="fas fa-search fa-2x"></i>
-							</div>
-						</div>
-					</div>
-					<div id="menu__hide__990"class="header__button__menu" style="cursor: pointer" onclick="openNav()">&#9776;>
-
-						<div class="header__button__menu__burger">
-						</div>
-
-						<div class="header__button__menu__burger">
-						</div>
-
-						<div class="header__button__menu__burger">
-						</div>
-
-
-						<div class="header__button__menu__text">
-							Menu
-						</div>
-					</div>
-					<div class="header__button__990__wrapper">
-						<div class=" header__button__support header__button__large ">
-							<i class="fas fa-mouse"></i>
-							Support
-						</div>
-						<div class=" header__button__contact header__button__large ">
-							<i class="far fa-paper-plane"></i>
-							Contact
-						</div> 
-						<div class="header__inner__search__large">
-							<div class="header__inner__search__large__inner">
-								<input class="search__bar" placeholder= "Search...">
-								</input>
-								<div class="search__magnifying__glass" style="cursor: pointer">
-									<i id="magiglass" class="fas fa-search fa-2x"></i>
-								</div>
-							</div>
-						</div>
-						<div class="header__button__menu" style="cursor: pointer " onclick="openNav()";>
-							
-							<div class="header__button__menu__burger">
-							</div>
-
-							<div class="header__button__menu__burger">
-							</div>
-
-							<div class="header__button__menu__burger">
-							</div>
-
-
-							<div class="header__button__menu__text">
-								Menu
-							</div>
-						</div>
-					</div>
-
-							
-				</div>
-				<!--  -->
-				<div class="header__inner__bottom">
-					<form class="header__search__box" action="#">
-						<input type="text" placeholder="Search..." name="search">
-						<i class="fas fa-search search__icon"></i>
-					</form>
-				</div>
-				<!--  -->
-			</div>
-		</header>
-	
-		<!--  -->
-		<!-- Main Nav -->
-		<div class="main__nav">
-			<div class="main__nav__inner">
-				<div  class="main__nav__inner__button ">
-					&nbsp
-				</div>
-				<div id="main__nav__inner__button__one" class="main__nav__inner__button">
-					<div class="main__nav__inner__button__name">
-						<i class="fas fa-code"></i>
-						<span class="main__nav__inner__button__name__small">
-							web
-						</span>
-						<span class="main__nav__inner__button__name__large">
-							design
-						</span>
-					</div>
-					
-				</div>
-				<div id="main__nav__inner__button__two"class="main__nav__inner__button">
-					<div class="main__nav__inner__button__name">
-						<i class="fas fa-desktop"></i>
-						<span class="main__nav__inner__button__name__small">
-							it
-						</span>
-						<span class="main__nav__inner__button__name__large">
-							support
-						</span>
-					</div>
-				</div>
-				<div id="main__nav__inner__button__three"class="main__nav__inner__button">
-					<div class="main__nav__inner__button__name">
-						<i class="fas fa-phone-alt"></i>
-						<span class="main__nav__inner__button__name__small">
-							telecoms
-						</span>
-						<span class="main__nav__inner__button__name__large">
-							services
-						</span>
-					</div>
-				</div>
-				<div id="main__nav__inner__button__four"class="main__nav__inner__button">
-					<div class="main__nav__inner__button__name">
-						<i class="fas fa-th"></i>
-						<span class="main__nav__inner__button__name__small">
-							besoke
-						</span>
-						<span class="main__nav__inner__button__name__large">
-							software
-						</span>
-					</div>
-				</div>
-				<div id="main__nav__inner__button__five"class="main__nav__inner__button">
-					<div class="main__nav__inner__button__name">
-						<i class="fas fa-signal fa-lg"></i>
-						<span class="main__nav__inner__button__name__small">
-							digital
-						</span>
-						<span class="main__nav__inner__button__name__large">
-							marketing
-						</span>
-					</div>
-				</div>
-				<div id="main__nav__inner__button__six"class="main__nav__inner__button">
-					<div class="main__nav__inner__button__name">
-						<i class="fas fa-shield-alt"></i>
-						<span class="main__nav__inner__button__name__small">
-							cyber
-						</span>
-						<span class="main__nav__inner__button__name__large">
-							security
-						</span>
-					</div>
-				</div>
-				<div class="main__nav__inner__button">
-					&nbsp
-				</div>
-			</div>	
-		</div>
-		<div class="nav__under__bar">
-			<div class="nav__under__bar__list__one">
-				<div>stylish websites</div>
-				-
-				<div>ecommerce stores</div>
-				-
-				<div>branding</div>
-				-
-				<div>apps</div>
-				-
-				<div>web hosting</div>
-				-
-				<div>pay monthly websites</div>
-			</div>
-			<!--  -->
-			<div class="nav__under__bar__list__two">
-				<div>stylish websites</div>
-				-
-				<div>ecommerce stores</div>
-				-
-				<div>branding</div>
-				-
-				<div>apps</div>
-				-
-				<div>web hosting</div>
-				-
-				<div>pay monthly websites</div>
-			</div>
-			<!--  -->
-			<div class="nav__under__bar__list__three">
-				<div>stylish websites</div>
-				-
-				<div>ecommerce stores</div>
-				-
-				<div>branding</div>
-				-
-				<div>apps</div>
-				-
-				<div>web hosting</div>
-				-
-				<div>pay monthly websites</div>
-			</div>
-			<!--  -->
-			<div class="nav__under__bar__list__four">
-				<div>stylish websites</div>
-				-
-				<div>ecommerce stores</div>
-				-
-				<div>branding</div>
-				-
-				<div>apps</div>
-				-
-				<div>web hosting</div>
-				-
-				<div>pay monthly websites</div>
-			</div>
-			<!--  -->
-			<div class="nav__under__bar__list__five">
-				<div>stylish websites</div>
-				-
-				<div>ecommerce stores</div>
-				-
-				<div>branding</div>
-				-
-				<div>apps</div>
-				-
-				<div>web hosting</div>
-				-
-				<div>pay monthly websites</div>
-			</div>
-			<!--  -->
-			<div class="nav__under__bar__list__six">
-				<div>stylish websites</div>
-				-
-				<div>ecommerce stores</div>
-				-
-				<div>branding</div>
-				-
-				<div>apps</div>
-				-
-				<div>web hosting</div>
-				-
-				<div>pay monthly websites</div>
-			</div>
-			<!--  -->
-		</div>
-	</div>
 	<!--  -->
 	<!--Side Menu  -->
 	<div id="main">
 		<div id="mySidenav" class="sidenav">
 			<div class="my__side__nav__innner">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			</div>	
+			
+			<a href="contact.php"><h1>CONTACT</h1></a>
+		</div>	
 		</div>
 	</div>
 	<!--  -->
@@ -554,7 +301,7 @@ $conn = OpenCon();
 		</div>
 	</div>
 	<!--  -->
-	<!-- Deascription Aside -->
+	<!-- Description Aside -->
 	<div class="description__aside">
 		<div class="description__aside__inner">
 			<h1> Netmatters
@@ -795,28 +542,27 @@ $conn = OpenCon();
 			<!--  -->
 		</div>
 	<!--  -->
-	
-			<!--  -->
-			<!-- <div class="awards__and__partners">
-				<ul>
-					<li class="awards__and__partners__google"></li>
-					<li class="awards__and__partners__microsoft"></li>
-					<li class="awards__and__partners__future__50"></li>
-					<li class="awards__and__partners__qms"></li>
-					<li class="awards__and__partners__carbon__charter"></li>
-					<li class="awards__and__partners__investing__in__future__growth"></li>
-					<li class="awards__and__partners__Princess__royal"></li>
-					<li class="awards__and__partners__skills_of_tomorrow"></li>
-				</ul>
-			</div> -->
-		<!-- </div> -->
-		<!--___-___-->
-
-	
-	<script src="main.js"></script>
+	<!-- <div class="awards__and__partners">
+		<ul>
+			<li class="awards__and__partners__google"></li>
+			<li class="awards__and__partners__microsoft"></li>
+			<li class="awards__and__partners__future__50"></li>
+			<li class="awards__and__partners__qms"></li>
+			<li class="awards__and__partners__carbon__charter"></li>
+			<li class="awards__and__partners__investing__in__future__growth"></li>
+			<li class="awards__and__partners__Princess__royal"></li>
+			<li class="awards__and__partners__skills_of_tomorrow"></li>
+		</ul>
+	</div> -->
+	<!--  -->
+    <!--  -->
+    <!-- These are the javascript files that are bing used on the page -->
+    <script src="main.js"></script>
 	<script src="Slider.js"></script>
 	<script src="side__menu.js"></script>
-	
+    <!--  -->
+    <!--  -->
+    <!--  -->
 </body>
 
 </html>
