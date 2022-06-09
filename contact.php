@@ -32,8 +32,7 @@ $conn = OpenCon();
                 </div>
             </div>
             <iframe class="contact__card__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.644199034708!2d1.1343817159548206!3d52.57604533982637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9ddac8dba0b4b%3A0x9c77ffbfe7911dab!2sNetmatters!5e0!3m2!1sen!2suk!4v1645463440752!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        
-        
+                <!--  -->
             <div class="contact__card" >
                 <img class="contact__card__header__image" src="assets\cambridge.jpg" alt="Picture of Cambridge office">
                 <h3 class= "contact__card__title">

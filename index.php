@@ -1,21 +1,17 @@
 
 <!-- This calls the header files and uses them on the page. Can be used across all pages without the need to add the header -->
 <?php
-$cards = [];
 
-
-	include('header.php');
-	include('news__card__info.php');
-	include ('db__connection.php');
-
-
-
-$conn = OpenCon();
-
+	$cards = [];
+		include('php\header.php');
+		include('php\news__card__info.php');
+		include ('php\db__connection.php');
+	$conn = OpenCon();
 
 ?>
-
-
+<!--  -->
+<!--  -->
+<!--  -->
 <body>
 	<!--  -->
 	<!--Side Menu  -->
@@ -23,7 +19,6 @@ $conn = OpenCon();
 		<div id="mySidenav" class="sidenav">
 			<div class="my__side__nav__innner">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			
 			<a href="contact.php"><h1>CONTACT</h1></a>
 		</div>	
 		</div>
@@ -31,25 +26,21 @@ $conn = OpenCon();
 	<!--  -->
 	<!-- Slider -->
 	<div class="slideshow-container">
-
 		<div class="mySlides fade">
 			<!-- <div class="numbertext">1 / 3</div> -->
 			<img src="assets\slider__1.jpg" style="width:100%">
 			<!-- <div class="text">Caption Text</div> -->
 		</div>
-		
 		<div class="mySlides fade">
 			<!-- <div class="numbertext">2 / 3</div> -->
 			<img src="assets\slider__2.jpg" style="width:100%">
 			<!-- <div class="text">Caption Two</div> -->
 		</div>
-		
 		<div class="mySlides fade">
 			<!-- <div class="numbertext">3 / 3</div> -->
 			<img src="assets\slider__3.jpg" style="width:100%">
 			<!-- <div class="text">Caption Three</div> -->
 		</div>
-		
 		<div style="text-align:center">
 			<span onclick="currentSlide(1)" class="dot"></span> 
 			<span onclick="currentSlide(2)" class="dot"></span> 
@@ -555,11 +546,10 @@ $conn = OpenCon();
 		</ul>
 	</div> -->
 	<!--  -->
-    <!--  -->
     <!-- These are the javascript files that are bing used on the page -->
-    <script src="main.js"></script>
-	<script src="Slider.js"></script>
-	<script src="side__menu.js"></script>
+    <script src="js\main.js"></script>
+	<script src="js\Slider.js"></script>
+	<script src="js\side__menu.js"></script>
     <!--  -->
     <!--  -->
     <!--  -->
@@ -570,5 +560,5 @@ $conn = OpenCon();
 
 <!-- This calls the footer files and uses them on the page. Can be used across all pages without the need to add the footer -->
 <?php
-	include('footer.php');
+	include('php\footer.php');
 ?>

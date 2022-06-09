@@ -1,17 +1,21 @@
 .header__sticky{
   display: inline-flex;
   background-color: #ffffff;
-  height: 23%;
+  height: 100px;
   width: 100%;
   flex-direction: column;
   justify-content: center;
   z-index: 4;
   transition: height 300ms ease;
+  padding-top: 10px;
+  
 }
 
 .sticky {
   position: fixed;
-  height: 14%;
+  top: 0px;
+  bottom: 815px;
+  height: 100px;
   
 }
 
@@ -25,7 +29,7 @@
     flex-wrap: wrap;
     height: 9.5em;
     width: 100%;
-    transition: position 300ms ease-in;
+    transition: position
 }
   //
   .header__inner {

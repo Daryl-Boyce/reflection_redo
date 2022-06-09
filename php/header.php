@@ -14,8 +14,8 @@
 	</script>
 	<title>Netmatters | Full Service Digital Agency | Norwich, Norfolk | Netmatters</title>
 </head>
-<!--___-___-->
-	<!-- Main header -->
+<!--  -->
+<!-- Main header -->
 <div class="header__sticky"  >
 		<header class="header">
 			<div class="header__inner">
@@ -27,7 +27,7 @@
 						<i class="fas fa-2x fa-phone-volume">
 						</i>
 					</div>
-					
+					<!--  -->
 					<div id="search__hide__990" class="header__inner__search__large">
 						<div class="header__inner__search__large__inner">
 							<input class="search__bar" placeholder= "Search...">
@@ -38,21 +38,23 @@
 						</div>
 					</div>
 					<div id="menu__hide__990"class="header__button__menu" style="cursor: pointer" onclick="openNav()">&#9776;>
-
+						<!--  -->
 						<div class="header__button__menu__burger">
 						</div>
-
+						<!--  -->
 						<div class="header__button__menu__burger">
 						</div>
-
+						<!--  -->
 						<div class="header__button__menu__burger">
 						</div>
-
-
+						<!--  -->
 						<div class="header__button__menu__text">
 							Menu
 						</div>
+						<!--  -->
 					</div>
+					<!--  -->
+					<!--  -->
 					<div class="header__button__990__wrapper">
 						<div class=" header__button__support header__button__large ">
 							<i class="fas fa-mouse"></i>
@@ -72,24 +74,22 @@
 							</div>
 						</div>
 						<div class="header__button__menu" style="cursor: pointer " onclick="openNav()";>
-							
+							<!--  -->
 							<div class="header__button__menu__burger">
 							</div>
-
+							<!--  -->
 							<div class="header__button__menu__burger">
 							</div>
-
+							<!--  -->
 							<div class="header__button__menu__burger">
 							</div>
-
-
+							<!--  -->
 							<div class="header__button__menu__text">
 								Menu
 							</div>
 						</div>
 					</div>
-
-							
+					<!--  -->
 				</div>
 				<!--  -->
 				<div class="header__inner__bottom">
@@ -119,7 +119,7 @@
 							design
 						</span>
 					</div>
-					
+				<!--  -->
 				</div>
 				<div id="main__nav__inner__button__two"class="main__nav__inner__button">
 					<div class="main__nav__inner__button__name">
@@ -267,4 +267,4 @@
 			</div>
 			<!--  -->
 		</div>
-	</div>
+</div>
